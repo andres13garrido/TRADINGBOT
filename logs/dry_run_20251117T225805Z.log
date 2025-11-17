@@ -1,0 +1,21 @@
+2025-11-17 17:58:06,678 INFO Model loaded successfully
+2025-11-17 17:58:06,678 INFO Features: ['sma_short', 'sma_long', 'rsi', 'atr', 'ret_1', 'ret_3', 'ret_lag_1', 'ret_lag_2', 'ret_lag_3']
+2025-11-17 17:58:06,678 INFO Starting dry-run loop (no orders will be sent).
+2025-11-17 17:58:06,679 INFO Polling every 60 seconds
+2025-11-17 17:58:07,273 ERROR Dry-run error (1/5)
+Traceback (most recent call last):
+  File "C:\Users\andre\TRADINGBOT\dry_run_bot.py", line 72, in dry_run_loop
+    last = compute_features_row(df)
+  File "C:\Users\andre\TRADINGBOT\dry_run_bot.py", line 22, in compute_features_row
+    df2.columns = df2.columns.str.lower()
+                  ^^^^^^^^^^^^^^^
+  File "C:\Users\andre\TRADINGBOT\venv\Lib\site-packages\pandas\core\accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "C:\Users\andre\TRADINGBOT\venv\Lib\site-packages\pandas\core\strings\accessor.py", line 194, in __init__
+    self._inferred_dtype = self._validate(data)
+                           ~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\andre\TRADINGBOT\venv\Lib\site-packages\pandas\core\strings\accessor.py", line 234, in _validate
+    raise AttributeError(
+        "Can only use .str accessor with Index, not MultiIndex"
+    )
+AttributeError: Can only use .str accessor with Index, not MultiIndex
