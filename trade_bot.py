@@ -1,1 +1,0 @@
-#live trading script

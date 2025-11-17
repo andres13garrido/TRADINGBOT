@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+joblib
+yfinance
+ta
+matplotlib
+backtrader
+ib_insync
+seaborn

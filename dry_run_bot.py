@@ -1,0 +1,103 @@
+"""
+dry_run_bot.py
+A safe demo loop that uses the trained model to predict on the latest data pulled from yfinance,
+and logs the 'would-be' decisions. No orders are sent.
+"""
+import joblib
+import yfinance as yf
+import ta
+import pandas as pd
+import time
+from config import TICKER, INTERVAL, MODEL_FILE
+from utils import setup_logging, ensure_dirs
+from pathlib import Path
+
+LOG_DIR = Path("logs")
+ensure_dirs(LOG_DIR)
+logger = setup_logging(LOG_DIR, "dry_run")
+
+def compute_features_row(df):
+    """Compute features on recent data and return last row"""
+    df2 = df.copy()
+    df2.columns = df2.columns.str.lower()
+    
+    df2["sma_short"] = df2["close"].rolling(window=10).mean()
+    df2["sma_long"] = df2["close"].rolling(window=50).mean()
+    df2["rsi"] = ta.momentum.RSIIndicator(df2["close"], window=14).rsi()
+    df2["atr"] = ta.volatility.average_true_range(df2["high"], df2["low"], df2["close"], window=14)
+    df2["ret_1"] = df2["close"].pct_change(1)
+    df2["ret_3"] = df2["close"].pct_change(3)
+    
+    for lag in range(1,4):
+        df2[f"ret_lag_{lag}"] = df2["ret_1"].shift(lag)
+    
+    df2 = df2.dropna()
+    
+    if df2.empty:
+        raise ValueError("Not enough data to compute features")
+    
+    return df2.iloc[-1]
+
+def load_model(model_file=MODEL_FILE):
+    """Load trained model bundle"""
+    bundle = joblib.load(model_file)
+    return bundle["model"], bundle["scaler"], bundle["features"]
+
+def fetch_recent(ticker=TICKER, interval=INTERVAL, period="60d"):
+    """Fetch recent bars from yfinance"""
+    df = yf.download(ticker, period=period, interval=interval, progress=False)
+    if df.empty:
+        raise RuntimeError("No recent data")
+    return df
+
+def dry_run_loop(poll_seconds=60):
+    """Main loop - fetches data and logs predictions"""
+    try:
+        model, scaler, features = load_model(MODEL_FILE)
+        logger.info("Model loaded successfully")
+        logger.info(f"Features: {features}")
+    except Exception as e:
+        logger.exception("Failed to load model")
+        return
+    
+    logger.info("Starting dry-run loop (no orders will be sent).")
+    logger.info(f"Polling every {poll_seconds} seconds")
+    
+    consecutive_errors = 0
+    max_consecutive_errors = 5
+    
+    while True:
+        try:
+            df = fetch_recent()
+            last = compute_features_row(df)
+            
+            X = last[features].values.reshape(1, -1)
+            Xs = scaler.transform(X)
+            prob = model.predict_proba(Xs)[0,1]
+            signal = int(prob > 0.6)
+            action = "BUY" if signal==1 else "SELL"
+            price = float(last["close"])
+            
+            msg = f"Signal={action} prob={prob:.3f} price={price:.2f} time={pd.Timestamp.now()}"
+            logger.info(msg)
+            print(msg)
+            
+            consecutive_errors = 0  # Reset on success
+            
+        except Exception as e:
+            consecutive_errors += 1
+            logger.exception(f"Dry-run error ({consecutive_errors}/{max_consecutive_errors})")
+            
+            if consecutive_errors >= max_consecutive_errors:
+                logger.error("Too many consecutive errors, exiting")
+                break
+        
+        time.sleep(poll_seconds)
+
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--interval", type=int, default=60, help="Poll interval in seconds")
+    args = parser.parse_args()
+    
+    dry_run_loop(poll_seconds=args.interval)

@@ -1,0 +1,2 @@
+2025-11-17 17:06:16,238 INFO Fetching SPY interval=5m start=None end=None
+2025-11-17 17:06:16,801 INFO Saved raw CSV to C:\Users\andre\TRADINGBOT\data\raw\SPY_5m.csv with 1638 rows
