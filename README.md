@@ -141,8 +141,8 @@ Edit `config.py` to customize settings:
 ```python
 # Trading Settings
 TICKER = "SPY"            # Asset to trade
-INTERVAL = "1d"           # Data interval (1d, 5m, 15m, 1h)
-START = "2018-01-01"      # Historical data start date
+INTERVAL = "5m"           # Data interval (1d, 5m, 15m, 1h)
+START = "year-month-date"      # Historical data start date
 
 # Strategy Parameters
 SMA_SHORT = 10            # Short moving average period
