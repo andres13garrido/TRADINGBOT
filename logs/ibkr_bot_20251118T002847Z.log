@@ -1,0 +1,52 @@
+2025-11-17 19:28:49,548 INFO Model loaded successfully
+2025-11-17 19:28:49,550 INFO Connecting to IB at 127.0.0.1:7497 (attempt 1/3)
+2025-11-17 19:28:49,551 INFO Connecting to 127.0.0.1:7497 with clientId 1...
+2025-11-17 19:28:49,553 INFO Connected
+2025-11-17 19:28:49,636 INFO Logged on to server version 176
+2025-11-17 19:28:49,665 INFO API connection ready
+2025-11-17 19:28:49,673 INFO Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-11-17 19:28:49,674 INFO Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-11-17 19:28:49,674 INFO Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2025-11-17 19:28:49,675 INFO Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-11-17 19:28:49,675 INFO Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-11-17 19:28:49,675 INFO Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-11-17 19:28:49,675 INFO Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-11-17 19:28:49,699 ERROR Error 321, reqId -1: Error validating request.-'ct' : cause - The API interface is currently in Read-Only mode.
+2025-11-17 19:28:49,777 ERROR Error 321, reqId -1: Error validating request.-'b3' : cause - The API interface is currently in Read-Only mode.
+2025-11-17 19:28:53,681 ERROR open orders request timed out
+2025-11-17 19:28:53,681 ERROR completed orders request timed out
+2025-11-17 19:28:53,762 INFO Synchronization complete
+2025-11-17 19:28:53,762 INFO Connected to IB successfully
+2025-11-17 19:28:54,141 INFO Starting IBKR bot (dry_run=True)
+2025-11-17 19:28:54,141 INFO Polling every 60 seconds
+2025-11-17 19:28:54,674 ERROR IBKR loop error (1/5)
+Traceback (most recent call last):
+  File "C:\Users\andre\TRADINGBOT\ibkr_bot.py", line 137, in run_ibkr
+    X = last[features].values.reshape(1, -1)
+        ~~~~^^^^^^^^^^
+  File "C:\Users\andre\TRADINGBOT\venv\Lib\site-packages\pandas\core\series.py", line 1165, in __getitem__
+    return self._get_with(key)
+           ~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\andre\TRADINGBOT\venv\Lib\site-packages\pandas\core\series.py", line 1206, in _get_with
+    return self.loc[key]
+           ~~~~~~~~^^^^^
+  File "C:\Users\andre\TRADINGBOT\venv\Lib\site-packages\pandas\core\indexing.py", line 1192, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\TRADINGBOT\venv\Lib\site-packages\pandas\core\indexing.py", line 1421, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\TRADINGBOT\venv\Lib\site-packages\pandas\core\indexing.py", line 1361, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\andre\TRADINGBOT\venv\Lib\site-packages\pandas\core\indexing.py", line 1559, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\TRADINGBOT\venv\Lib\site-packages\pandas\core\indexes\base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\andre\TRADINGBOT\venv\Lib\site-packages\pandas\core\indexes\base.py", line 6264, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['ret_3'] not in index"
+2025-11-17 19:29:16,401 INFO Disconnecting from 127.0.0.1:7497, 244 B sent in 10 messages, 32.4 kB received in 401 messages, session time 26.9 s.
+2025-11-17 19:29:16,402 INFO Disconnecting

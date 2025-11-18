@@ -19,6 +19,12 @@ logger = setup_logging(LOG_DIR, "dry_run")
 def compute_features_row(df):
     """Compute features on recent data and return last row"""
     df2 = df.copy()
+    
+    # Handle MultiIndex columns from yfinance
+    if isinstance(df2.columns, pd.MultiIndex):
+        df2.columns = df2.columns.get_level_values(0)
+    
+    # Convert to lowercase
     df2.columns = df2.columns.str.lower()
     
     df2["sma_short"] = df2["close"].rolling(window=10).mean()

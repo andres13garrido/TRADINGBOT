@@ -1,0 +1,7 @@
+2025-11-18 00:46:38,194 INFO Model loaded successfully
+2025-11-18 00:46:38,194 INFO Features: ['sma_short', 'sma_long', 'rsi', 'atr', 'ret_1', 'ret_3', 'ret_lag_1', 'ret_lag_2', 'ret_lag_3']
+2025-11-18 00:46:38,194 INFO Starting dry-run loop (no orders will be sent).
+2025-11-18 00:46:38,195 INFO Polling every 60 seconds
+2025-11-18 00:46:38,764 INFO Signal=SELL prob=0.456 price=665.69 time=2025-11-18 00:46:38.764545
+2025-11-18 00:47:39,200 INFO Signal=SELL prob=0.456 price=665.69 time=2025-11-18 00:47:39.200250
+2025-11-18 00:48:39,645 INFO Signal=SELL prob=0.456 price=665.69 time=2025-11-18 00:48:39.645335

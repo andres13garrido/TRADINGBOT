@@ -39,19 +39,25 @@ def connect_ib(max_retries=3):
             else:
                 raise ConnectionError("Could not connect to IB. Is TWS/IB Gateway running and API enabled?")
 
-def get_latest_bars_ib(ib, contract, duration="2 D", bar_size="1 hour"):
+def get_latest_bars_ib(ib, contract, duration="5 D", bar_size="5 mins"):
     """Fetch historical bars from IB"""
     try:
         bars = ib.reqHistoricalData(
             contract,
             endDateTime='',
-            durationStr=duration,
+            durationStr=duration,  # Increased from 2D to 5D for more data
             barSizeSetting=bar_size,
             whatToShow='TRADES',
             useRTH=True,
             formatDate=1
         )
         df = util.df(bars)
+        
+        if df.empty:
+            logger.warning("No bars returned from IB")
+        else:
+            logger.info(f"Fetched {len(df)} bars from IB, latest: {df.index[-1]}")
+        
         return df
     except Exception as e:
         logger.exception(f"Error fetching bars: {e}")
@@ -60,11 +66,20 @@ def get_latest_bars_ib(ib, contract, duration="2 D", bar_size="1 hour"):
 def compute_features_df(df):
     """Compute features on IB data"""
     df2 = df.copy()
+    
+    # Handle MultiIndex columns if present
+    if isinstance(df2.columns, pd.MultiIndex):
+        df2.columns = df2.columns.get_level_values(0)
+    
+    # Ensure lowercase columns
+    df2.columns = df2.columns.str.lower()
+    
     df2["sma_short"] = df2["close"].rolling(window=10).mean()
     df2["sma_long"] = df2["close"].rolling(window=50).mean()
     df2["rsi"] = ta.momentum.RSIIndicator(df2["close"], window=14).rsi()
     df2["atr"] = ta.volatility.average_true_range(df2["high"], df2["low"], df2["close"], window=14)
     df2["ret_1"] = df2["close"].pct_change(1)
+    df2["ret_3"] = df2["close"].pct_change(3)  # ADDED: Missing ret_3
     
     for lag in range(1,4):
         df2[f"ret_lag_{lag}"] = df2["ret_1"].shift(lag)

@@ -1,0 +1,7 @@
+2025-11-18 00:57:36,281 INFO Model loaded successfully
+2025-11-18 00:57:36,281 INFO Connecting to IB at 127.0.0.1:7497 (attempt 1/3)
+2025-11-18 00:57:36,283 INFO Connecting to 127.0.0.1:7497 with clientId 1...
+2025-11-18 00:57:38,320 INFO Disconnecting
+2025-11-18 00:57:38,321 ERROR API connection failed: ConnectionRefusedError(22, 'The remote computer refused the network connection', None, 1225, None)
+2025-11-18 00:57:38,321 ERROR Make sure API port on TWS/IBG is open
+2025-11-18 00:57:38,322 ERROR Connection attempt 1 failed: [WinError 1225] The remote computer refused the network connection
