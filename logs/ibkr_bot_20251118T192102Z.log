@@ -1,0 +1,714 @@
+2025-11-18 14:21:08,045 INFO Model loaded successfully
+2025-11-18 14:21:08,047 INFO ML Threshold: 0.52
+2025-11-18 14:21:08,048 INFO Connecting to IB at 127.0.0.1:7497 (attempt 1/3)
+2025-11-18 14:21:08,049 INFO Connecting to 127.0.0.1:7497 with clientId 1...
+2025-11-18 14:21:08,052 INFO Connected
+2025-11-18 14:21:08,119 INFO Logged on to server version 176
+2025-11-18 14:21:08,141 INFO API connection ready
+2025-11-18 14:21:08,143 INFO Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-11-18 14:21:08,143 INFO Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-11-18 14:21:08,144 INFO Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2025-11-18 14:21:08,144 INFO Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-11-18 14:21:08,145 INFO Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-11-18 14:21:08,145 INFO Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-11-18 14:21:08,145 INFO Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-11-18 14:21:08,293 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 14:21:08,525 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, marketPrice=663.3200073, marketValue=0.0, averageCost=0.0, unrealizedPNL=0.0, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:21:08,620 INFO execDetails Execution(execId='00012ec5.691ce964.01.01', time=datetime.datetime(2025, 11, 18, 18, 56, 34, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=664.96, permId=75279213, clientId=1, orderId=6, liquidation=0, cumQty=1.0, avgPrice=664.96, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 14:21:08,621 INFO execDetails Execution(execId='00012ec5.691ce965.01.01', time=datetime.datetime(2025, 11, 18, 18, 56, 34, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=664.96, permId=75279214, clientId=1, orderId=12, liquidation=0, cumQty=1.0, avgPrice=664.96, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 14:21:08,621 INFO execDetails Execution(execId='00012ec5.691ce966.01.01', time=datetime.datetime(2025, 11, 18, 18, 56, 34, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=664.96, permId=75279215, clientId=1, orderId=16, liquidation=0, cumQty=1.0, avgPrice=664.96, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 14:21:08,622 INFO execDetails Execution(execId='00012ec5.691ce967.01.01', time=datetime.datetime(2025, 11, 18, 18, 56, 34, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=664.96, permId=75279216, clientId=1, orderId=23, liquidation=0, cumQty=1.0, avgPrice=664.96, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 14:21:08,622 INFO execDetails Execution(execId='00012ec5.691ce968.01.01', time=datetime.datetime(2025, 11, 18, 18, 56, 35, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=664.96, permId=75279217, clientId=1, orderId=25, liquidation=0, cumQty=1.0, avgPrice=664.96, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 14:21:08,622 INFO execDetails Execution(execId='00012ec5.691ce969.01.01', time=datetime.datetime(2025, 11, 18, 18, 56, 35, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=664.96, permId=75279218, clientId=1, orderId=27, liquidation=0, cumQty=1.0, avgPrice=664.96, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 14:21:08,622 INFO execDetails Execution(execId='00012ec5.691ce96a.01.01', time=datetime.datetime(2025, 11, 18, 18, 56, 35, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=664.96, permId=75279219, clientId=1, orderId=29, liquidation=0, cumQty=1.0, avgPrice=664.96, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 14:21:08,623 INFO execDetails Execution(execId='00012ec5.691ce96b.01.01', time=datetime.datetime(2025, 11, 18, 18, 56, 36, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=664.96, permId=75279220, clientId=1, orderId=31, liquidation=0, cumQty=1.0, avgPrice=664.96, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 14:21:08,623 INFO execDetails Execution(execId='00012ec5.691ce96c.01.01', time=datetime.datetime(2025, 11, 18, 18, 56, 36, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=664.96, permId=75279221, clientId=1, orderId=33, liquidation=0, cumQty=1.0, avgPrice=664.96, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 14:21:08,623 INFO execDetails Execution(execId='00012ec5.691ce9a1.01.01', time=datetime.datetime(2025, 11, 18, 18, 56, 56, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=9.0, price=665.01, permId=75279222, clientId=1, orderId=35, liquidation=0, cumQty=9.0, avgPrice=665.01, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 14:21:08,624 INFO commissionReport: CommissionReport(execId='00012ec5.691ce964.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 14:21:08,624 INFO commissionReport: CommissionReport(execId='00012ec5.691ce965.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 14:21:08,624 INFO commissionReport: CommissionReport(execId='00012ec5.691ce966.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 14:21:08,624 INFO commissionReport: CommissionReport(execId='00012ec5.691ce967.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 14:21:08,624 INFO commissionReport: CommissionReport(execId='00012ec5.691ce968.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 14:21:08,625 INFO commissionReport: CommissionReport(execId='00012ec5.691ce969.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 14:21:08,625 INFO commissionReport: CommissionReport(execId='00012ec5.691ce96a.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 14:21:08,625 INFO commissionReport: CommissionReport(execId='00012ec5.691ce96b.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 14:21:08,625 INFO commissionReport: CommissionReport(execId='00012ec5.691ce96c.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 14:21:08,625 INFO commissionReport: CommissionReport(execId='00012ec5.691ce9a1.01.01', commission=1.001692, currency='USD', realizedPNL=-9.55189, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 14:21:08,625 INFO Synchronization complete
+2025-11-18 14:21:08,626 INFO Connected to IB successfully
+2025-11-18 14:21:08,713 INFO Starting IBKR bot (dry_run=False)
+2025-11-18 14:21:08,723 INFO Polling every 60 seconds
+2025-11-18 14:21:09,096 INFO Fetched 368 bars from IB, latest: 367
+2025-11-18 14:21:09,196 INFO Decision: BUY prob=0.621 price=663.34 (threshold=0.52)
+2025-11-18 14:21:09,197 INFO Current position: 0 shares
+2025-11-18 14:21:09,197 INFO Updated position after wait: 0 shares
+2025-11-18 14:21:09,199 INFO placeOrder: New order Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=40, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=40, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 198847, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 14:21:09,199 INFO \u2705 PLACED BUY ORDER for 1 shares: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=40, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=40, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 198847, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 14:21:09,291 ERROR Error 10349, reqId 40: Order TIF was set to DAY based on order preset.
+2025-11-18 14:21:09,291 WARNING Canceled order: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=40, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=40, status='Cancelled', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 198847, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 291132, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 40: Order TIF was set to DAY based on order preset.', errorCode=10349)], advancedError='')
+2025-11-18 14:21:09,428 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=40, clientId=1, permId=75279234, action='BUY', totalQuantity=1.0, lmtPrice=663.49, auxPrice=0.0), orderStatus=OrderStatus(orderId=40, status='Submitted', filled=0.0, remaining=1.0, avgFillPrice=0.0, permId=75279234, parentId=0, lastFillPrice=0.0, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 198847, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 291132, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 40: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 428235, tzinfo=datetime.timezone.utc), status='Submitted', message='', errorCode=0)], advancedError='')
+2025-11-18 14:21:09,442 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, avgCost=663.36)
+2025-11-18 14:21:09,461 INFO execDetails Execution(execId='00012ec5.691cefda.01.01', time=datetime.datetime(2025, 11, 19, 0, 21, 6, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.36, permId=75279234, clientId=1, orderId=40, liquidation=0, cumQty=1.0, avgPrice=663.36, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 14:21:09,461 INFO execDetails: Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691cefda.01.01', time=datetime.datetime(2025, 11, 19, 0, 21, 6, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.36, permId=75279234, clientId=1, orderId=40, liquidation=0, cumQty=1.0, avgPrice=663.36, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 19, 21, 9, 459902, tzinfo=datetime.timezone.utc))
+2025-11-18 14:21:09,463 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=40, clientId=1, permId=75279234, action='BUY', totalQuantity=1.0, lmtPrice=663.49, auxPrice=0.0), orderStatus=OrderStatus(orderId=40, status='Filled', filled=1.0, remaining=0.0, avgFillPrice=663.36, permId=75279234, parentId=0, lastFillPrice=663.36, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691cefda.01.01', time=datetime.datetime(2025, 11, 19, 0, 21, 6, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.36, permId=75279234, clientId=1, orderId=40, liquidation=0, cumQty=1.0, avgPrice=663.36, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 19, 21, 9, 459902, tzinfo=datetime.timezone.utc))], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 198847, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 291132, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 40: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 428235, tzinfo=datetime.timezone.utc), status='Submitted', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 459902, tzinfo=datetime.timezone.utc), status='Submitted', message='Fill 1.0@663.36', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 19, 21, 9, 462697, tzinfo=datetime.timezone.utc), status='Filled', message='', errorCode=0)], advancedError='')
+2025-11-18 14:21:09,476 INFO commissionReport: CommissionReport(execId='00012ec5.691cefda.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 14:21:09,482 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, avgCost=664.360022)
+2025-11-18 14:21:10,425 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.35998535, marketValue=663.36, averageCost=664.360022, unrealizedPNL=-1.0, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:22:11,490 INFO Fetched 368 bars from IB, latest: 367
+2025-11-18 14:22:11,545 INFO Decision: BUY prob=0.632 price=663.43 (threshold=0.52)
+2025-11-18 14:22:11,545 INFO Current position: 1.0 shares
+2025-11-18 14:22:11,545 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:22:11,545 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:23:11,853 INFO Fetched 368 bars from IB, latest: 367
+2025-11-18 14:23:11,919 INFO Decision: BUY prob=0.605 price=663.29 (threshold=0.52)
+2025-11-18 14:23:11,919 INFO Current position: 1.0 shares
+2025-11-18 14:23:11,919 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:23:11,919 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:24:11,945 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.28997805, marketValue=663.29, averageCost=664.360022, unrealizedPNL=-1.07, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:24:12,160 INFO Fetched 368 bars from IB, latest: 367
+2025-11-18 14:24:12,212 INFO Decision: BUY prob=0.601 price=663.27 (threshold=0.52)
+2025-11-18 14:24:12,212 INFO Current position: 1.0 shares
+2025-11-18 14:24:12,212 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:24:12,212 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:25:12,429 INFO Fetched 368 bars from IB, latest: 367
+2025-11-18 14:25:12,517 INFO Decision: BUY prob=0.606 price=663.71 (threshold=0.52)
+2025-11-18 14:25:12,518 INFO Current position: 1.0 shares
+2025-11-18 14:25:12,518 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:25:12,519 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:26:12,757 INFO Fetched 369 bars from IB, latest: 368
+2025-11-18 14:26:12,867 INFO Decision: BUY prob=0.615 price=663.47 (threshold=0.52)
+2025-11-18 14:26:12,867 INFO Current position: 1.0 shares
+2025-11-18 14:26:12,868 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:26:12,868 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:27:12,872 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, avgCost=664.360022)
+2025-11-18 14:27:12,879 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.3300171, marketValue=663.33, averageCost=664.360022, unrealizedPNL=-1.03, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:27:13,126 INFO Fetched 369 bars from IB, latest: 368
+2025-11-18 14:27:13,164 INFO Decision: BUY prob=0.628 price=663.34 (threshold=0.52)
+2025-11-18 14:27:13,165 INFO Current position: 1.0 shares
+2025-11-18 14:27:13,165 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:27:13,165 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:28:13,426 INFO Fetched 369 bars from IB, latest: 368
+2025-11-18 14:28:13,463 INFO Decision: BUY prob=0.615 price=663.56 (threshold=0.52)
+2025-11-18 14:28:13,464 INFO Current position: 1.0 shares
+2025-11-18 14:28:13,464 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:28:13,464 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:29:13,689 INFO Fetched 369 bars from IB, latest: 368
+2025-11-18 14:29:13,726 INFO Decision: BUY prob=0.635 price=663.92 (threshold=0.52)
+2025-11-18 14:29:13,726 INFO Current position: 1.0 shares
+2025-11-18 14:29:13,727 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:29:13,727 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:30:13,738 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.96002195, marketValue=663.96, averageCost=664.360022, unrealizedPNL=-0.4, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:30:13,988 INFO Fetched 369 bars from IB, latest: 368
+2025-11-18 14:30:14,027 INFO Decision: BUY prob=0.636 price=663.96 (threshold=0.52)
+2025-11-18 14:30:14,027 INFO Current position: 1.0 shares
+2025-11-18 14:30:14,027 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:30:14,028 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:31:14,275 INFO Fetched 370 bars from IB, latest: 369
+2025-11-18 14:31:14,313 INFO Decision: BUY prob=0.695 price=663.42 (threshold=0.52)
+2025-11-18 14:31:14,314 INFO Current position: 1.0 shares
+2025-11-18 14:31:14,314 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:31:14,314 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:32:14,558 INFO Fetched 370 bars from IB, latest: 369
+2025-11-18 14:32:14,596 INFO Decision: BUY prob=0.685 price=663.45 (threshold=0.52)
+2025-11-18 14:32:14,596 INFO Current position: 1.0 shares
+2025-11-18 14:32:14,596 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:32:14,597 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:33:14,601 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.1300049, marketValue=663.13, averageCost=664.360022, unrealizedPNL=-1.23, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:33:14,855 INFO Fetched 370 bars from IB, latest: 369
+2025-11-18 14:33:14,915 INFO Decision: BUY prob=0.735 price=663.15 (threshold=0.52)
+2025-11-18 14:33:14,915 INFO Current position: 1.0 shares
+2025-11-18 14:33:14,915 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:33:14,915 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:34:15,183 INFO Fetched 370 bars from IB, latest: 369
+2025-11-18 14:34:15,220 INFO Decision: BUY prob=0.666 price=663.48 (threshold=0.52)
+2025-11-18 14:34:15,220 INFO Current position: 1.0 shares
+2025-11-18 14:34:15,221 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:34:15,221 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:35:15,454 INFO Fetched 370 bars from IB, latest: 369
+2025-11-18 14:35:15,491 INFO Decision: BUY prob=0.663 price=664.05 (threshold=0.52)
+2025-11-18 14:35:15,491 INFO Current position: 1.0 shares
+2025-11-18 14:35:15,492 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:35:15,492 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:36:15,499 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.6300049, marketValue=663.63, averageCost=664.360022, unrealizedPNL=-0.73, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:36:15,749 INFO Fetched 371 bars from IB, latest: 370
+2025-11-18 14:36:15,788 INFO Decision: BUY prob=0.548 price=663.64 (threshold=0.52)
+2025-11-18 14:36:15,788 INFO Current position: 1.0 shares
+2025-11-18 14:36:15,789 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:36:15,789 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:37:16,009 INFO Fetched 371 bars from IB, latest: 370
+2025-11-18 14:37:16,108 INFO Decision: BUY prob=0.615 price=663.20 (threshold=0.52)
+2025-11-18 14:37:16,108 INFO Current position: 1.0 shares
+2025-11-18 14:37:16,108 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:37:16,108 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:38:16,373 INFO Fetched 371 bars from IB, latest: 370
+2025-11-18 14:38:16,448 INFO Decision: BUY prob=0.610 price=663.31 (threshold=0.52)
+2025-11-18 14:38:16,449 INFO Current position: 1.0 shares
+2025-11-18 14:38:16,449 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:38:16,449 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:39:16,454 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.05999755, marketValue=663.06, averageCost=664.360022, unrealizedPNL=-1.3, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:39:16,723 INFO Fetched 371 bars from IB, latest: 370
+2025-11-18 14:39:16,782 INFO Decision: BUY prob=0.575 price=663.05 (threshold=0.52)
+2025-11-18 14:39:16,782 INFO Current position: 1.0 shares
+2025-11-18 14:39:16,782 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:39:16,782 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:40:17,044 INFO Fetched 371 bars from IB, latest: 370
+2025-11-18 14:40:17,081 INFO Decision: BUY prob=0.595 price=663.07 (threshold=0.52)
+2025-11-18 14:40:17,081 INFO Current position: 1.0 shares
+2025-11-18 14:40:17,081 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:40:17,082 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:41:17,352 INFO Fetched 372 bars from IB, latest: 371
+2025-11-18 14:41:17,390 INFO Decision: BUY prob=0.546 price=663.44 (threshold=0.52)
+2025-11-18 14:41:17,390 INFO Current position: 1.0 shares
+2025-11-18 14:41:17,390 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:41:17,391 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:42:17,400 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.26000975, marketValue=663.26, averageCost=664.360022, unrealizedPNL=-1.1, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:42:17,649 INFO Fetched 372 bars from IB, latest: 371
+2025-11-18 14:42:17,687 INFO Decision: BUY prob=0.558 price=663.28 (threshold=0.52)
+2025-11-18 14:42:17,687 INFO Current position: 1.0 shares
+2025-11-18 14:42:17,687 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:42:17,687 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:43:17,896 INFO Fetched 372 bars from IB, latest: 371
+2025-11-18 14:43:17,946 INFO Decision: BUY prob=0.569 price=663.11 (threshold=0.52)
+2025-11-18 14:43:17,947 INFO Current position: 1.0 shares
+2025-11-18 14:43:17,947 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:43:17,947 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:44:18,213 INFO Fetched 372 bars from IB, latest: 371
+2025-11-18 14:44:18,424 INFO Decision: BUY prob=0.588 price=662.60 (threshold=0.52)
+2025-11-18 14:44:18,425 INFO Current position: 1.0 shares
+2025-11-18 14:44:18,425 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:44:18,426 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:45:18,434 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=662.94000245, marketValue=662.94, averageCost=664.360022, unrealizedPNL=-1.42, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:45:18,701 INFO Fetched 372 bars from IB, latest: 371
+2025-11-18 14:45:18,750 INFO Decision: BUY prob=0.566 price=662.93 (threshold=0.52)
+2025-11-18 14:45:18,751 INFO Current position: 1.0 shares
+2025-11-18 14:45:18,751 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:45:18,751 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:46:19,004 INFO Fetched 373 bars from IB, latest: 372
+2025-11-18 14:46:19,057 INFO Decision: BUY prob=0.581 price=662.99 (threshold=0.52)
+2025-11-18 14:46:19,057 INFO Current position: 1.0 shares
+2025-11-18 14:46:19,057 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:46:19,058 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:47:19,310 INFO Fetched 373 bars from IB, latest: 372
+2025-11-18 14:47:19,359 INFO Decision: BUY prob=0.583 price=662.79 (threshold=0.52)
+2025-11-18 14:47:19,359 INFO Current position: 1.0 shares
+2025-11-18 14:47:19,359 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:47:19,359 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:48:19,366 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=662.60998535, marketValue=662.61, averageCost=664.360022, unrealizedPNL=-1.75, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:48:19,612 INFO Fetched 373 bars from IB, latest: 372
+2025-11-18 14:48:19,652 INFO Decision: BUY prob=0.582 price=662.58 (threshold=0.52)
+2025-11-18 14:48:19,652 INFO Current position: 1.0 shares
+2025-11-18 14:48:19,653 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:48:19,653 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:49:19,923 INFO Fetched 373 bars from IB, latest: 372
+2025-11-18 14:49:19,984 INFO Decision: BUY prob=0.582 price=662.60 (threshold=0.52)
+2025-11-18 14:49:19,985 INFO Current position: 1.0 shares
+2025-11-18 14:49:19,985 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:49:19,985 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:50:20,239 INFO Fetched 373 bars from IB, latest: 372
+2025-11-18 14:50:20,281 INFO Decision: BUY prob=0.592 price=662.73 (threshold=0.52)
+2025-11-18 14:50:20,281 INFO Current position: 1.0 shares
+2025-11-18 14:50:20,281 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:50:20,282 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:51:20,287 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.28997805, marketValue=663.29, averageCost=664.360022, unrealizedPNL=-1.07, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:51:20,616 INFO Fetched 374 bars from IB, latest: 373
+2025-11-18 14:51:20,678 INFO Decision: BUY prob=0.665 price=663.28 (threshold=0.52)
+2025-11-18 14:51:20,678 INFO Current position: 1.0 shares
+2025-11-18 14:51:20,679 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:51:20,679 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:52:20,931 INFO Fetched 374 bars from IB, latest: 373
+2025-11-18 14:52:20,987 INFO Decision: BUY prob=0.644 price=663.44 (threshold=0.52)
+2025-11-18 14:52:20,988 INFO Current position: 1.0 shares
+2025-11-18 14:52:20,988 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:52:20,988 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:53:21,251 INFO Fetched 374 bars from IB, latest: 373
+2025-11-18 14:53:21,311 INFO Decision: BUY prob=0.651 price=663.64 (threshold=0.52)
+2025-11-18 14:53:21,312 INFO Current position: 1.0 shares
+2025-11-18 14:53:21,312 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:53:21,312 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:54:21,320 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=664.05999755, marketValue=664.06, averageCost=664.360022, unrealizedPNL=-0.3, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:54:21,572 INFO Fetched 374 bars from IB, latest: 373
+2025-11-18 14:54:21,628 INFO Decision: BUY prob=0.682 price=664.07 (threshold=0.52)
+2025-11-18 14:54:21,629 INFO Current position: 1.0 shares
+2025-11-18 14:54:21,629 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:54:21,629 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:55:21,841 INFO Fetched 374 bars from IB, latest: 373
+2025-11-18 14:55:21,893 INFO Decision: BUY prob=0.664 price=664.61 (threshold=0.52)
+2025-11-18 14:55:21,893 INFO Current position: 1.0 shares
+2025-11-18 14:55:21,894 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:55:21,894 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:56:22,128 INFO Fetched 375 bars from IB, latest: 374
+2025-11-18 14:56:22,184 INFO Decision: BUY prob=0.588 price=664.72 (threshold=0.52)
+2025-11-18 14:56:22,184 INFO Current position: 1.0 shares
+2025-11-18 14:56:22,184 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:56:22,184 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:57:22,196 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=664.27001955, marketValue=664.27, averageCost=664.360022, unrealizedPNL=-0.09, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 14:57:22,433 INFO Fetched 375 bars from IB, latest: 374
+2025-11-18 14:57:22,494 INFO Decision: BUY prob=0.573 price=664.28 (threshold=0.52)
+2025-11-18 14:57:22,494 INFO Current position: 1.0 shares
+2025-11-18 14:57:22,495 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:57:22,495 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:58:22,718 INFO Fetched 375 bars from IB, latest: 374
+2025-11-18 14:58:22,763 INFO Decision: BUY prob=0.562 price=664.09 (threshold=0.52)
+2025-11-18 14:58:22,763 INFO Current position: 1.0 shares
+2025-11-18 14:58:22,763 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:58:22,764 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 14:59:23,006 INFO Fetched 375 bars from IB, latest: 374
+2025-11-18 14:59:23,065 INFO Decision: BUY prob=0.565 price=664.15 (threshold=0.52)
+2025-11-18 14:59:23,066 INFO Current position: 1.0 shares
+2025-11-18 14:59:23,066 INFO Updated position after wait: 1.0 shares
+2025-11-18 14:59:23,066 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:00:23,073 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.4699707, marketValue=663.47, averageCost=664.360022, unrealizedPNL=-0.89, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 15:00:23,321 INFO Fetched 375 bars from IB, latest: 374
+2025-11-18 15:00:23,374 INFO Decision: BUY prob=0.596 price=663.46 (threshold=0.52)
+2025-11-18 15:00:23,374 INFO Current position: 1.0 shares
+2025-11-18 15:00:23,375 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:00:23,375 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:01:23,603 INFO Fetched 376 bars from IB, latest: 375
+2025-11-18 15:01:23,666 INFO Decision: BUY prob=0.571 price=664.01 (threshold=0.52)
+2025-11-18 15:01:23,666 INFO Current position: 1.0 shares
+2025-11-18 15:01:23,666 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:01:23,666 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:02:23,925 INFO Fetched 376 bars from IB, latest: 375
+2025-11-18 15:02:23,975 INFO Decision: BUY prob=0.576 price=663.95 (threshold=0.52)
+2025-11-18 15:02:23,975 INFO Current position: 1.0 shares
+2025-11-18 15:02:23,975 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:02:23,976 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:03:23,983 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=664.77001955, marketValue=664.77, averageCost=664.360022, unrealizedPNL=0.41, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 15:03:24,241 INFO Fetched 376 bars from IB, latest: 375
+2025-11-18 15:03:24,287 INFO Decision: BUY prob=0.589 price=664.78 (threshold=0.52)
+2025-11-18 15:03:24,287 INFO Current position: 1.0 shares
+2025-11-18 15:03:24,287 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:03:24,287 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:04:24,534 INFO Fetched 376 bars from IB, latest: 375
+2025-11-18 15:04:24,591 INFO Decision: BUY prob=0.544 price=664.12 (threshold=0.52)
+2025-11-18 15:04:24,592 INFO Current position: 1.0 shares
+2025-11-18 15:04:24,592 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:04:24,592 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:05:24,859 INFO Fetched 376 bars from IB, latest: 375
+2025-11-18 15:05:24,916 INFO Decision: BUY prob=0.544 price=664.12 (threshold=0.52)
+2025-11-18 15:05:24,916 INFO Current position: 1.0 shares
+2025-11-18 15:05:24,917 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:05:24,917 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:06:24,929 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=664.02001955, marketValue=664.02, averageCost=664.360022, unrealizedPNL=-0.34, realizedPNL=-9.55, account='DUO156311')
+2025-11-18 15:06:25,156 INFO Fetched 377 bars from IB, latest: 376
+2025-11-18 15:06:25,205 INFO Decision: BUY prob=0.542 price=664.06 (threshold=0.52)
+2025-11-18 15:06:25,205 INFO Current position: 1.0 shares
+2025-11-18 15:06:25,205 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:06:25,205 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:07:25,482 INFO Fetched 377 bars from IB, latest: 376
+2025-11-18 15:07:25,533 INFO Decision: BUY prob=0.536 price=663.97 (threshold=0.52)
+2025-11-18 15:07:25,533 INFO Current position: 1.0 shares
+2025-11-18 15:07:25,533 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:07:25,533 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:08:25,796 INFO Fetched 377 bars from IB, latest: 376
+2025-11-18 15:08:25,848 INFO Decision: SELL prob=0.511 price=663.78 (threshold=0.52)
+2025-11-18 15:08:25,848 INFO Current position: 1.0 shares
+2025-11-18 15:08:25,848 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:08:25,866 INFO placeOrder: New order Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=88, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=88, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 25, 858885, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:08:25,868 INFO \u2705 PLACED SELL ORDER for 1.0 shares: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=88, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=88, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 25, 858885, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:08:25,894 ERROR Error 10349, reqId 88: Order TIF was set to DAY based on order preset.
+2025-11-18 15:08:25,896 WARNING Canceled order: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=88, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=88, status='Cancelled', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 25, 858885, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 25, 893728, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 88: Order TIF was set to DAY based on order preset.', errorCode=10349)], advancedError='')
+2025-11-18 15:08:26,034 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=88, clientId=1, permId=75279236, action='SELL', totalQuantity=1.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=88, status='PreSubmitted', filled=0.0, remaining=1.0, avgFillPrice=0.0, permId=75279236, parentId=0, lastFillPrice=0.0, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 25, 858885, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 25, 893728, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 88: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 26, 30241, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2025-11-18 15:08:26,050 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:08:26,062 INFO execDetails Execution(execId='00012ec5.691cfc1a.01.01', time=datetime.datetime(2025, 11, 19, 1, 8, 23, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=663.64, permId=75279236, clientId=1, orderId=88, liquidation=0, cumQty=1.0, avgPrice=663.64, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 15:08:26,065 INFO execDetails: Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691cfc1a.01.01', time=datetime.datetime(2025, 11, 19, 1, 8, 23, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=663.64, permId=75279236, clientId=1, orderId=88, liquidation=0, cumQty=1.0, avgPrice=663.64, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 8, 26, 57638, tzinfo=datetime.timezone.utc))
+2025-11-18 15:08:26,067 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=88, clientId=1, permId=75279236, action='SELL', totalQuantity=1.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=88, status='Filled', filled=1.0, remaining=0.0, avgFillPrice=663.64, permId=75279236, parentId=0, lastFillPrice=663.64, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691cfc1a.01.01', time=datetime.datetime(2025, 11, 19, 1, 8, 23, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=663.64, permId=75279236, clientId=1, orderId=88, liquidation=0, cumQty=1.0, avgPrice=663.64, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 8, 26, 57638, tzinfo=datetime.timezone.utc))], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 25, 858885, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 25, 893728, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 88: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 26, 30241, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 26, 57638, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='Fill 1.0@663.64', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 8, 26, 65792, tzinfo=datetime.timezone.utc), status='Filled', message='', errorCode=0)], advancedError='')
+2025-11-18 15:08:26,068 INFO commissionReport: CommissionReport(execId='00012ec5.691cfc1a.01.01', commission=1.000188, currency='USD', realizedPNL=-1.72021, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 15:08:26,069 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:08:26,070 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:08:27,038 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, marketPrice=663.64001465, marketValue=0.0, averageCost=0.0, unrealizedPNL=0.0, realizedPNL=-11.27, account='DUO156311')
+2025-11-18 15:09:28,142 INFO Fetched 377 bars from IB, latest: 376
+2025-11-18 15:09:28,195 INFO Decision: SELL prob=0.505 price=663.49 (threshold=0.52)
+2025-11-18 15:09:28,195 INFO Current position: 0 shares
+2025-11-18 15:09:28,195 INFO Updated position after wait: 0 shares
+2025-11-18 15:09:28,196 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 15:10:28,443 INFO Fetched 377 bars from IB, latest: 376
+2025-11-18 15:10:28,494 INFO Decision: BUY prob=0.573 price=663.28 (threshold=0.52)
+2025-11-18 15:10:28,495 INFO Current position: 0 shares
+2025-11-18 15:10:28,495 INFO Updated position after wait: 0 shares
+2025-11-18 15:10:28,496 INFO placeOrder: New order Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=91, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=91, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 495818, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:10:28,497 INFO \u2705 PLACED BUY ORDER for 1 shares: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=91, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=91, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 495818, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:10:28,505 ERROR Error 10349, reqId 91: Order TIF was set to DAY based on order preset.
+2025-11-18 15:10:28,506 WARNING Canceled order: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=91, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=91, status='Cancelled', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 495818, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 505446, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 91: Order TIF was set to DAY based on order preset.', errorCode=10349)], advancedError='')
+2025-11-18 15:10:28,588 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=91, clientId=1, permId=75279237, action='BUY', totalQuantity=1.0, lmtPrice=663.44, auxPrice=0.0), orderStatus=OrderStatus(orderId=91, status='PreSubmitted', filled=0.0, remaining=1.0, avgFillPrice=0.0, permId=75279237, parentId=0, lastFillPrice=0.0, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 495818, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 505446, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 91: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 587943, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2025-11-18 15:10:28,592 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, avgCost=663.06)
+2025-11-18 15:10:28,596 INFO execDetails Execution(execId='00012ec5.691cfccc.01.01', time=datetime.datetime(2025, 11, 19, 1, 10, 25, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.06, permId=75279237, clientId=1, orderId=91, liquidation=0, cumQty=1.0, avgPrice=663.06, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 15:10:28,597 INFO execDetails: Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691cfccc.01.01', time=datetime.datetime(2025, 11, 19, 1, 10, 25, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.06, permId=75279237, clientId=1, orderId=91, liquidation=0, cumQty=1.0, avgPrice=663.06, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 10, 28, 596445, tzinfo=datetime.timezone.utc))
+2025-11-18 15:10:28,600 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=91, clientId=1, permId=75279237, action='BUY', totalQuantity=1.0, lmtPrice=663.44, auxPrice=0.0), orderStatus=OrderStatus(orderId=91, status='Filled', filled=1.0, remaining=0.0, avgFillPrice=663.06, permId=75279237, parentId=0, lastFillPrice=663.06, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691cfccc.01.01', time=datetime.datetime(2025, 11, 19, 1, 10, 25, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.06, permId=75279237, clientId=1, orderId=91, liquidation=0, cumQty=1.0, avgPrice=663.06, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 10, 28, 596445, tzinfo=datetime.timezone.utc))], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 495818, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 505446, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 91: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 587943, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 596445, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='Fill 1.0@663.06', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 10, 28, 598653, tzinfo=datetime.timezone.utc), status='Filled', message='', errorCode=0)], advancedError='')
+2025-11-18 15:10:28,602 INFO commissionReport: CommissionReport(execId='00012ec5.691cfccc.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 15:10:28,603 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, avgCost=664.0600219999999)
+2025-11-18 15:10:29,589 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.05999755, marketValue=663.06, averageCost=664.060022, unrealizedPNL=-1.0, realizedPNL=-11.27, account='DUO156311')
+2025-11-18 15:11:30,769 INFO Fetched 378 bars from IB, latest: 377
+2025-11-18 15:11:30,826 INFO Decision: BUY prob=0.533 price=663.50 (threshold=0.52)
+2025-11-18 15:11:30,826 INFO Current position: 1.0 shares
+2025-11-18 15:11:30,826 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:11:30,827 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:12:31,087 INFO Fetched 378 bars from IB, latest: 377
+2025-11-18 15:12:31,136 INFO Decision: BUY prob=0.528 price=663.79 (threshold=0.52)
+2025-11-18 15:12:31,137 INFO Current position: 1.0 shares
+2025-11-18 15:12:31,137 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:12:31,137 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:13:31,149 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=664.0300293, marketValue=664.03, averageCost=664.060022, unrealizedPNL=-0.03, realizedPNL=-11.27, account='DUO156311')
+2025-11-18 15:13:31,383 INFO Fetched 378 bars from IB, latest: 377
+2025-11-18 15:13:31,441 INFO Decision: BUY prob=0.534 price=663.83 (threshold=0.52)
+2025-11-18 15:13:31,442 INFO Current position: 1.0 shares
+2025-11-18 15:13:31,442 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:13:31,442 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:14:31,452 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, avgCost=664.060022)
+2025-11-18 15:14:31,745 INFO Fetched 378 bars from IB, latest: 377
+2025-11-18 15:14:31,813 INFO Decision: BUY prob=0.545 price=663.93 (threshold=0.52)
+2025-11-18 15:14:31,813 INFO Current position: 1.0 shares
+2025-11-18 15:14:31,814 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:14:31,814 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:15:32,053 INFO Fetched 379 bars from IB, latest: 378
+2025-11-18 15:15:32,124 INFO Decision: BUY prob=0.646 price=664.76 (threshold=0.52)
+2025-11-18 15:15:32,124 INFO Current position: 1.0 shares
+2025-11-18 15:15:32,124 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:15:32,125 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:16:32,141 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=664.4299927, marketValue=664.43, averageCost=664.060022, unrealizedPNL=0.37, realizedPNL=-11.27, account='DUO156311')
+2025-11-18 15:16:32,373 INFO Fetched 379 bars from IB, latest: 378
+2025-11-18 15:16:32,430 INFO Decision: BUY prob=0.645 price=664.42 (threshold=0.52)
+2025-11-18 15:16:32,430 INFO Current position: 1.0 shares
+2025-11-18 15:16:32,430 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:16:32,431 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:17:32,692 INFO Fetched 379 bars from IB, latest: 378
+2025-11-18 15:17:32,751 INFO Decision: BUY prob=0.627 price=664.20 (threshold=0.52)
+2025-11-18 15:17:32,751 INFO Current position: 1.0 shares
+2025-11-18 15:17:32,752 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:17:32,752 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:18:33,013 INFO Fetched 379 bars from IB, latest: 378
+2025-11-18 15:18:33,068 INFO Decision: BUY prob=0.598 price=664.08 (threshold=0.52)
+2025-11-18 15:18:33,068 INFO Current position: 1.0 shares
+2025-11-18 15:18:33,068 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:18:33,069 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:19:33,079 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.9199829, marketValue=663.92, averageCost=664.060022, unrealizedPNL=-0.14, realizedPNL=-11.27, account='DUO156311')
+2025-11-18 15:19:33,324 INFO Fetched 379 bars from IB, latest: 378
+2025-11-18 15:19:33,365 INFO Decision: BUY prob=0.564 price=663.85 (threshold=0.52)
+2025-11-18 15:19:33,366 INFO Current position: 1.0 shares
+2025-11-18 15:19:33,366 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:19:33,366 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:20:33,617 INFO Fetched 380 bars from IB, latest: 379
+2025-11-18 15:20:33,679 INFO Decision: SELL prob=0.507 price=663.47 (threshold=0.52)
+2025-11-18 15:20:33,680 INFO Current position: 1.0 shares
+2025-11-18 15:20:33,680 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:20:33,687 INFO placeOrder: New order Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=102, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=102, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 685222, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:20:33,688 INFO \u2705 PLACED SELL ORDER for 1.0 shares: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=102, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=102, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 685222, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:20:33,795 ERROR Error 10349, reqId 102: Order TIF was set to DAY based on order preset.
+2025-11-18 15:20:33,796 WARNING Canceled order: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=102, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=102, status='Cancelled', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 685222, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 795448, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 102: Order TIF was set to DAY based on order preset.', errorCode=10349)], advancedError='')
+2025-11-18 15:20:33,913 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=102, clientId=1, permId=75279238, action='SELL', totalQuantity=1.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=102, status='PreSubmitted', filled=0.0, remaining=1.0, avgFillPrice=0.0, permId=75279238, parentId=0, lastFillPrice=0.0, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 685222, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 795448, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 102: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 910892, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2025-11-18 15:20:33,928 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:20:33,944 INFO execDetails Execution(execId='00012ec5.691cfecb.01.01', time=datetime.datetime(2025, 11, 19, 1, 20, 31, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=663.47, permId=75279238, clientId=1, orderId=102, liquidation=0, cumQty=1.0, avgPrice=663.47, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 15:20:33,945 INFO execDetails: Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691cfecb.01.01', time=datetime.datetime(2025, 11, 19, 1, 20, 31, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=663.47, permId=75279238, clientId=1, orderId=102, liquidation=0, cumQty=1.0, avgPrice=663.47, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 20, 33, 943106, tzinfo=datetime.timezone.utc))
+2025-11-18 15:20:33,946 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=102, clientId=1, permId=75279238, action='SELL', totalQuantity=1.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=102, status='Filled', filled=1.0, remaining=0.0, avgFillPrice=663.47, permId=75279238, parentId=0, lastFillPrice=663.47, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691cfecb.01.01', time=datetime.datetime(2025, 11, 19, 1, 20, 31, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=663.47, permId=75279238, clientId=1, orderId=102, liquidation=0, cumQty=1.0, avgPrice=663.47, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 20, 33, 943106, tzinfo=datetime.timezone.utc))], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 685222, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 795448, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 102: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 910892, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 943106, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='Fill 1.0@663.47', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 20, 33, 946153, tzinfo=datetime.timezone.utc), status='Filled', message='', errorCode=0)], advancedError='')
+2025-11-18 15:20:33,947 INFO commissionReport: CommissionReport(execId='00012ec5.691cfecb.01.01', commission=1.000188, currency='USD', realizedPNL=-1.59021, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 15:20:33,948 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:20:33,949 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:20:34,924 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, marketPrice=663.4699707, marketValue=0.0, averageCost=0.0, unrealizedPNL=0.0, realizedPNL=-12.86, account='DUO156311')
+2025-11-18 15:21:35,955 INFO Fetched 380 bars from IB, latest: 379
+2025-11-18 15:21:36,015 INFO Decision: SELL prob=0.502 price=663.37 (threshold=0.52)
+2025-11-18 15:21:36,015 INFO Current position: 0 shares
+2025-11-18 15:21:36,016 INFO Updated position after wait: 0 shares
+2025-11-18 15:21:36,016 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 15:22:36,281 INFO Fetched 380 bars from IB, latest: 379
+2025-11-18 15:22:36,337 INFO Decision: SELL prob=0.515 price=663.20 (threshold=0.52)
+2025-11-18 15:22:36,337 INFO Current position: 0 shares
+2025-11-18 15:22:36,338 INFO Updated position after wait: 0 shares
+2025-11-18 15:22:36,338 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 15:23:36,340 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, marketPrice=663.22998045, marketValue=0.0, averageCost=0.0, unrealizedPNL=0.0, realizedPNL=-12.86, account='DUO156311')
+2025-11-18 15:23:36,613 INFO Fetched 380 bars from IB, latest: 379
+2025-11-18 15:23:36,674 INFO Decision: SELL prob=0.519 price=663.24 (threshold=0.52)
+2025-11-18 15:23:36,674 INFO Current position: 0 shares
+2025-11-18 15:23:36,674 INFO Updated position after wait: 0 shares
+2025-11-18 15:23:36,674 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 15:24:36,939 INFO Fetched 380 bars from IB, latest: 379
+2025-11-18 15:24:36,992 INFO Decision: SELL prob=0.501 price=663.41 (threshold=0.52)
+2025-11-18 15:24:36,993 INFO Current position: 0 shares
+2025-11-18 15:24:36,993 INFO Updated position after wait: 0 shares
+2025-11-18 15:24:36,993 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 15:25:36,996 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:25:37,236 INFO Fetched 381 bars from IB, latest: 380
+2025-11-18 15:25:37,283 INFO Decision: BUY prob=0.553 price=663.39 (threshold=0.52)
+2025-11-18 15:25:37,283 INFO Current position: 0 shares
+2025-11-18 15:25:37,283 INFO Updated position after wait: 0 shares
+2025-11-18 15:25:37,284 INFO placeOrder: New order Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=108, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=108, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 283901, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:25:37,284 INFO \u2705 PLACED BUY ORDER for 1 shares: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=108, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=108, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 283901, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:25:37,292 ERROR Error 10349, reqId 108: Order TIF was set to DAY based on order preset.
+2025-11-18 15:25:37,293 WARNING Canceled order: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=108, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=108, status='Cancelled', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 283901, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 292163, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 108: Order TIF was set to DAY based on order preset.', errorCode=10349)], advancedError='')
+2025-11-18 15:25:37,375 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=108, clientId=1, permId=75279239, action='BUY', totalQuantity=1.0, lmtPrice=662.28, auxPrice=0.0), orderStatus=OrderStatus(orderId=108, status='PreSubmitted', filled=0.0, remaining=1.0, avgFillPrice=0.0, permId=75279239, parentId=0, lastFillPrice=0.0, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 283901, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 292163, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 108: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 374437, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2025-11-18 15:25:37,378 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, avgCost=663.41)
+2025-11-18 15:25:37,380 INFO execDetails Execution(execId='00012ec5.691cffb4.01.01', time=datetime.datetime(2025, 11, 19, 1, 25, 34, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.41, permId=75279239, clientId=1, orderId=108, liquidation=0, cumQty=1.0, avgPrice=663.41, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 15:25:37,381 INFO execDetails: Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691cffb4.01.01', time=datetime.datetime(2025, 11, 19, 1, 25, 34, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.41, permId=75279239, clientId=1, orderId=108, liquidation=0, cumQty=1.0, avgPrice=663.41, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 25, 37, 380458, tzinfo=datetime.timezone.utc))
+2025-11-18 15:25:37,384 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=108, clientId=1, permId=75279239, action='BUY', totalQuantity=1.0, lmtPrice=662.28, auxPrice=0.0), orderStatus=OrderStatus(orderId=108, status='Filled', filled=1.0, remaining=0.0, avgFillPrice=663.41, permId=75279239, parentId=0, lastFillPrice=663.41, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691cffb4.01.01', time=datetime.datetime(2025, 11, 19, 1, 25, 34, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.41, permId=75279239, clientId=1, orderId=108, liquidation=0, cumQty=1.0, avgPrice=663.41, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 25, 37, 380458, tzinfo=datetime.timezone.utc))], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 283901, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 292163, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 108: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 374437, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 380458, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='Fill 1.0@663.41', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 25, 37, 382787, tzinfo=datetime.timezone.utc), status='Filled', message='', errorCode=0)], advancedError='')
+2025-11-18 15:25:37,386 INFO commissionReport: CommissionReport(execId='00012ec5.691cffb4.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 15:25:37,387 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, avgCost=664.4100219999999)
+2025-11-18 15:25:38,374 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.39001465, marketValue=663.39, averageCost=664.410022, unrealizedPNL=-1.02, realizedPNL=-12.86, account='DUO156311')
+2025-11-18 15:26:39,565 INFO Fetched 381 bars from IB, latest: 380
+2025-11-18 15:26:39,624 INFO Decision: SELL prob=0.502 price=663.05 (threshold=0.52)
+2025-11-18 15:26:39,624 INFO Current position: 1.0 shares
+2025-11-18 15:26:39,624 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:26:39,625 INFO placeOrder: New order Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=110, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=110, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 625207, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:26:39,625 INFO \u2705 PLACED SELL ORDER for 1.0 shares: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=110, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=110, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 625207, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:26:39,630 ERROR Error 10349, reqId 110: Order TIF was set to DAY based on order preset.
+2025-11-18 15:26:39,631 WARNING Canceled order: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=110, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=110, status='Cancelled', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 625207, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 630854, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 110: Order TIF was set to DAY based on order preset.', errorCode=10349)], advancedError='')
+2025-11-18 15:26:39,703 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=110, clientId=1, permId=75279240, action='SELL', totalQuantity=1.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=110, status='PreSubmitted', filled=0.0, remaining=1.0, avgFillPrice=0.0, permId=75279240, parentId=0, lastFillPrice=0.0, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 625207, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 630854, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 110: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 702909, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2025-11-18 15:26:39,716 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:26:39,721 INFO execDetails Execution(execId='00012ec5.691d0053.01.01', time=datetime.datetime(2025, 11, 19, 1, 26, 37, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=663.05, permId=75279240, clientId=1, orderId=110, liquidation=0, cumQty=1.0, avgPrice=663.05, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 15:26:39,721 INFO execDetails: Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691d0053.01.01', time=datetime.datetime(2025, 11, 19, 1, 26, 37, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=663.05, permId=75279240, clientId=1, orderId=110, liquidation=0, cumQty=1.0, avgPrice=663.05, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 26, 39, 720797, tzinfo=datetime.timezone.utc))
+2025-11-18 15:26:39,722 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=110, clientId=1, permId=75279240, action='SELL', totalQuantity=1.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=110, status='Filled', filled=1.0, remaining=0.0, avgFillPrice=663.05, permId=75279240, parentId=0, lastFillPrice=663.05, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691d0053.01.01', time=datetime.datetime(2025, 11, 19, 1, 26, 37, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=663.05, permId=75279240, clientId=1, orderId=110, liquidation=0, cumQty=1.0, avgPrice=663.05, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 26, 39, 720797, tzinfo=datetime.timezone.utc))], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 625207, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 630854, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 110: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 702909, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 720797, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='Fill 1.0@663.05', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 26, 39, 722286, tzinfo=datetime.timezone.utc), status='Filled', message='', errorCode=0)], advancedError='')
+2025-11-18 15:26:39,789 INFO commissionReport: CommissionReport(execId='00012ec5.691d0053.01.01', commission=1.000188, currency='USD', realizedPNL=-2.36021, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 15:26:39,792 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:26:39,793 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:26:40,731 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, marketPrice=663.0499878, marketValue=0.0, averageCost=0.0, unrealizedPNL=0.0, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:27:41,634 INFO Warning 2105, reqId -1: HMDS data farm connection is broken:ushmds
+2025-11-18 15:27:41,635 INFO Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-11-18 15:27:41,862 INFO Fetched 381 bars from IB, latest: 380
+2025-11-18 15:27:41,925 INFO Decision: SELL prob=0.514 price=663.19 (threshold=0.52)
+2025-11-18 15:27:41,925 INFO Current position: 0 shares
+2025-11-18 15:27:41,925 INFO Updated position after wait: 0 shares
+2025-11-18 15:27:41,926 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 15:28:42,167 INFO Fetched 381 bars from IB, latest: 380
+2025-11-18 15:28:42,216 INFO Decision: SELL prob=0.488 price=662.99 (threshold=0.52)
+2025-11-18 15:28:42,216 INFO Current position: 0 shares
+2025-11-18 15:28:42,216 INFO Updated position after wait: 0 shares
+2025-11-18 15:28:42,217 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 15:29:42,219 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, marketPrice=663.1199951, marketValue=0.0, averageCost=0.0, unrealizedPNL=0.0, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:29:42,467 INFO Fetched 381 bars from IB, latest: 380
+2025-11-18 15:29:42,536 INFO Decision: BUY prob=0.534 price=663.14 (threshold=0.52)
+2025-11-18 15:29:42,537 INFO Current position: 0 shares
+2025-11-18 15:29:42,537 INFO Updated position after wait: 0 shares
+2025-11-18 15:29:42,538 INFO placeOrder: New order Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=114, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=114, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 538126, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:29:42,538 INFO \u2705 PLACED BUY ORDER for 1 shares: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=114, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=114, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 538126, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:29:42,546 ERROR Error 10349, reqId 114: Order TIF was set to DAY based on order preset.
+2025-11-18 15:29:42,547 WARNING Canceled order: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=114, clientId=1, action='BUY', totalQuantity=1), orderStatus=OrderStatus(orderId=114, status='Cancelled', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 538126, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 546652, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 114: Order TIF was set to DAY based on order preset.', errorCode=10349)], advancedError='')
+2025-11-18 15:29:42,630 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=114, clientId=1, permId=75279241, action='BUY', totalQuantity=1.0, lmtPrice=662.05, auxPrice=0.0), orderStatus=OrderStatus(orderId=114, status='PreSubmitted', filled=0.0, remaining=1.0, avgFillPrice=0.0, permId=75279241, parentId=0, lastFillPrice=0.0, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 538126, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 546652, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 114: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 629904, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2025-11-18 15:29:42,634 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, avgCost=663.09)
+2025-11-18 15:29:42,636 INFO execDetails Execution(execId='00012ec5.691d009e.01.01', time=datetime.datetime(2025, 11, 19, 1, 29, 39, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.09, permId=75279241, clientId=1, orderId=114, liquidation=0, cumQty=1.0, avgPrice=663.09, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 15:29:42,637 INFO execDetails: Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691d009e.01.01', time=datetime.datetime(2025, 11, 19, 1, 29, 39, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.09, permId=75279241, clientId=1, orderId=114, liquidation=0, cumQty=1.0, avgPrice=663.09, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 29, 42, 636543, tzinfo=datetime.timezone.utc))
+2025-11-18 15:29:42,639 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=114, clientId=1, permId=75279241, action='BUY', totalQuantity=1.0, lmtPrice=662.05, auxPrice=0.0), orderStatus=OrderStatus(orderId=114, status='Filled', filled=1.0, remaining=0.0, avgFillPrice=663.09, permId=75279241, parentId=0, lastFillPrice=663.09, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691d009e.01.01', time=datetime.datetime(2025, 11, 19, 1, 29, 39, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='BOT', shares=1.0, price=663.09, permId=75279241, clientId=1, orderId=114, liquidation=0, cumQty=1.0, avgPrice=663.09, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 29, 42, 636543, tzinfo=datetime.timezone.utc))], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 538126, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 546652, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 114: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 629904, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 636543, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='Fill 1.0@663.09', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 29, 42, 638564, tzinfo=datetime.timezone.utc), status='Filled', message='', errorCode=0)], advancedError='')
+2025-11-18 15:29:42,641 INFO commissionReport: CommissionReport(execId='00012ec5.691d009e.01.01', commission=1.000022, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 15:29:42,642 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, avgCost=664.090022)
+2025-11-18 15:29:43,628 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.0700073, marketValue=663.07, averageCost=664.090022, unrealizedPNL=-1.02, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:30:44,821 INFO Fetched 382 bars from IB, latest: 381
+2025-11-18 15:30:44,876 INFO Decision: BUY prob=0.571 price=663.09 (threshold=0.52)
+2025-11-18 15:30:44,876 INFO Current position: 1.0 shares
+2025-11-18 15:30:44,877 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:30:44,877 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:31:44,879 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, avgCost=664.090022)
+2025-11-18 15:31:45,118 INFO Fetched 382 bars from IB, latest: 381
+2025-11-18 15:31:45,170 INFO Decision: BUY prob=0.565 price=663.11 (threshold=0.52)
+2025-11-18 15:31:45,170 INFO Current position: 1.0 shares
+2025-11-18 15:31:45,171 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:31:45,171 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:32:45,183 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=663.3200073, marketValue=663.32, averageCost=664.090022, unrealizedPNL=-0.77, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:32:45,420 INFO Fetched 382 bars from IB, latest: 381
+2025-11-18 15:32:45,471 INFO Decision: BUY prob=0.622 price=663.46 (threshold=0.52)
+2025-11-18 15:32:45,472 INFO Current position: 1.0 shares
+2025-11-18 15:32:45,472 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:32:45,472 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:33:45,743 INFO Fetched 382 bars from IB, latest: 381
+2025-11-18 15:33:45,787 INFO Decision: BUY prob=0.562 price=662.96 (threshold=0.52)
+2025-11-18 15:33:45,788 INFO Current position: 1.0 shares
+2025-11-18 15:33:45,788 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:33:45,788 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:34:46,034 INFO Fetched 382 bars from IB, latest: 381
+2025-11-18 15:34:46,091 INFO Decision: BUY prob=0.580 price=662.79 (threshold=0.52)
+2025-11-18 15:34:46,092 INFO Current position: 1.0 shares
+2025-11-18 15:34:46,092 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:34:46,093 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:35:46,103 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=662.9000244, marketValue=662.9, averageCost=664.090022, unrealizedPNL=-1.19, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:35:46,363 INFO Fetched 383 bars from IB, latest: 382
+2025-11-18 15:35:46,414 INFO Decision: BUY prob=0.600 price=662.93 (threshold=0.52)
+2025-11-18 15:35:46,414 INFO Current position: 1.0 shares
+2025-11-18 15:35:46,414 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:35:46,415 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:36:46,670 INFO Fetched 383 bars from IB, latest: 382
+2025-11-18 15:36:46,723 INFO Decision: BUY prob=0.583 price=663.24 (threshold=0.52)
+2025-11-18 15:36:46,724 INFO Current position: 1.0 shares
+2025-11-18 15:36:46,724 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:36:46,724 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:37:46,988 INFO Fetched 383 bars from IB, latest: 382
+2025-11-18 15:37:47,040 INFO Decision: BUY prob=0.587 price=663.12 (threshold=0.52)
+2025-11-18 15:37:47,041 INFO Current position: 1.0 shares
+2025-11-18 15:37:47,041 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:37:47,041 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:38:47,056 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=662.9500122, marketValue=662.95, averageCost=664.090022, unrealizedPNL=-1.14, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:38:47,290 INFO Fetched 383 bars from IB, latest: 382
+2025-11-18 15:38:47,345 INFO Decision: BUY prob=0.595 price=663.04 (threshold=0.52)
+2025-11-18 15:38:47,346 INFO Current position: 1.0 shares
+2025-11-18 15:38:47,346 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:38:47,346 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:39:47,589 INFO Fetched 383 bars from IB, latest: 382
+2025-11-18 15:39:47,640 INFO Decision: BUY prob=0.606 price=662.48 (threshold=0.52)
+2025-11-18 15:39:47,641 INFO Current position: 1.0 shares
+2025-11-18 15:39:47,641 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:39:47,641 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:40:47,899 INFO Fetched 384 bars from IB, latest: 383
+2025-11-18 15:40:47,953 INFO Decision: BUY prob=0.557 price=662.37 (threshold=0.52)
+2025-11-18 15:40:47,953 INFO Current position: 1.0 shares
+2025-11-18 15:40:47,953 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:40:47,953 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:41:47,963 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=662.14001465, marketValue=662.14, averageCost=664.090022, unrealizedPNL=-1.95, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:41:48,199 INFO Fetched 384 bars from IB, latest: 383
+2025-11-18 15:41:48,251 INFO Decision: BUY prob=0.642 price=661.90 (threshold=0.52)
+2025-11-18 15:41:48,252 INFO Current position: 1.0 shares
+2025-11-18 15:41:48,252 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:41:48,252 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:42:48,512 INFO Fetched 384 bars from IB, latest: 383
+2025-11-18 15:42:48,571 INFO Decision: BUY prob=0.687 price=661.80 (threshold=0.52)
+2025-11-18 15:42:48,571 INFO Current position: 1.0 shares
+2025-11-18 15:42:48,571 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:42:48,572 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:43:48,809 INFO Fetched 384 bars from IB, latest: 383
+2025-11-18 15:43:48,862 INFO Decision: BUY prob=0.654 price=661.51 (threshold=0.52)
+2025-11-18 15:43:48,863 INFO Current position: 1.0 shares
+2025-11-18 15:43:48,863 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:43:48,863 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:44:48,873 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=662.0499878, marketValue=662.05, averageCost=664.090022, unrealizedPNL=-2.04, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:44:49,114 INFO Fetched 384 bars from IB, latest: 383
+2025-11-18 15:44:49,163 INFO Decision: BUY prob=0.586 price=662.03 (threshold=0.52)
+2025-11-18 15:44:49,163 INFO Current position: 1.0 shares
+2025-11-18 15:44:49,164 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:44:49,164 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:45:49,440 INFO Fetched 385 bars from IB, latest: 384
+2025-11-18 15:45:49,504 INFO Decision: BUY prob=0.592 price=662.32 (threshold=0.52)
+2025-11-18 15:45:49,504 INFO Current position: 1.0 shares
+2025-11-18 15:45:49,504 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:45:49,505 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:46:49,748 INFO Fetched 385 bars from IB, latest: 384
+2025-11-18 15:46:49,798 INFO Decision: BUY prob=0.579 price=662.22 (threshold=0.52)
+2025-11-18 15:46:49,799 INFO Current position: 1.0 shares
+2025-11-18 15:46:49,799 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:46:49,799 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:47:49,803 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=662.1500244, marketValue=662.15, averageCost=664.090022, unrealizedPNL=-1.94, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:47:50,034 INFO Fetched 385 bars from IB, latest: 384
+2025-11-18 15:47:50,083 INFO Decision: BUY prob=0.586 price=662.24 (threshold=0.52)
+2025-11-18 15:47:50,084 INFO Current position: 1.0 shares
+2025-11-18 15:47:50,084 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:47:50,084 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:48:50,312 INFO Fetched 385 bars from IB, latest: 384
+2025-11-18 15:48:50,368 INFO Decision: BUY prob=0.594 price=662.01 (threshold=0.52)
+2025-11-18 15:48:50,369 INFO Current position: 1.0 shares
+2025-11-18 15:48:50,369 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:48:50,369 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:49:50,626 INFO Fetched 385 bars from IB, latest: 384
+2025-11-18 15:49:50,682 INFO Decision: BUY prob=0.613 price=661.96 (threshold=0.52)
+2025-11-18 15:49:50,683 INFO Current position: 1.0 shares
+2025-11-18 15:49:50,683 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:49:50,683 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:50:50,690 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=661.9699707, marketValue=661.97, averageCost=664.090022, unrealizedPNL=-2.12, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:50:50,929 INFO Fetched 386 bars from IB, latest: 385
+2025-11-18 15:50:50,976 INFO Decision: BUY prob=0.592 price=661.96 (threshold=0.52)
+2025-11-18 15:50:50,977 INFO Current position: 1.0 shares
+2025-11-18 15:50:50,977 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:50:50,977 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:51:51,242 INFO Fetched 386 bars from IB, latest: 385
+2025-11-18 15:51:51,296 INFO Decision: BUY prob=0.603 price=662.02 (threshold=0.52)
+2025-11-18 15:51:51,297 INFO Current position: 1.0 shares
+2025-11-18 15:51:51,297 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:51:51,298 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:52:51,561 INFO Fetched 386 bars from IB, latest: 385
+2025-11-18 15:52:51,617 INFO Decision: BUY prob=0.594 price=661.95 (threshold=0.52)
+2025-11-18 15:52:51,618 INFO Current position: 1.0 shares
+2025-11-18 15:52:51,618 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:52:51,618 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:53:51,626 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=662.5300293, marketValue=662.53, averageCost=664.090022, unrealizedPNL=-1.56, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:53:51,843 INFO Fetched 386 bars from IB, latest: 385
+2025-11-18 15:53:51,918 INFO Decision: BUY prob=0.610 price=662.30 (threshold=0.52)
+2025-11-18 15:53:51,921 INFO Current position: 1.0 shares
+2025-11-18 15:53:51,922 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:53:51,922 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:54:52,171 INFO Fetched 386 bars from IB, latest: 385
+2025-11-18 15:54:52,218 INFO Decision: BUY prob=0.600 price=662.35 (threshold=0.52)
+2025-11-18 15:54:52,218 INFO Current position: 1.0 shares
+2025-11-18 15:54:52,219 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:54:52,219 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:55:52,487 INFO Fetched 387 bars from IB, latest: 386
+2025-11-18 15:55:52,560 INFO Decision: BUY prob=0.542 price=662.37 (threshold=0.52)
+2025-11-18 15:55:52,561 INFO Current position: 1.0 shares
+2025-11-18 15:55:52,561 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:55:52,562 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:56:52,571 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=1.0, marketPrice=662.19000245, marketValue=662.19, averageCost=664.090022, unrealizedPNL=-1.9, realizedPNL=-15.22, account='DUO156311')
+2025-11-18 15:56:52,816 INFO Fetched 387 bars from IB, latest: 386
+2025-11-18 15:56:52,868 INFO Decision: BUY prob=0.524 price=662.16 (threshold=0.52)
+2025-11-18 15:56:52,868 INFO Current position: 1.0 shares
+2025-11-18 15:56:52,868 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:56:52,869 INFO No action: sig=1, qty=1.0, last=BUY
+2025-11-18 15:57:53,123 INFO Fetched 387 bars from IB, latest: 386
+2025-11-18 15:57:53,160 INFO Decision: SELL prob=0.474 price=662.00 (threshold=0.52)
+2025-11-18 15:57:53,161 INFO Current position: 1.0 shares
+2025-11-18 15:57:53,161 INFO Updated position after wait: 1.0 shares
+2025-11-18 15:57:53,165 INFO placeOrder: New order Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=143, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=143, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 164248, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:57:53,166 INFO \u2705 PLACED SELL ORDER for 1.0 shares: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=143, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=143, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 164248, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-11-18 15:57:53,253 ERROR Error 10349, reqId 143: Order TIF was set to DAY based on order preset.
+2025-11-18 15:57:53,254 WARNING Canceled order: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=143, clientId=1, action='SELL', totalQuantity=1.0), orderStatus=OrderStatus(orderId=143, status='Cancelled', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 164248, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 252802, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 143: Order TIF was set to DAY based on order preset.', errorCode=10349)], advancedError='')
+2025-11-18 15:57:53,352 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=143, clientId=1, permId=75279242, action='SELL', totalQuantity=1.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=143, status='PreSubmitted', filled=0.0, remaining=1.0, avgFillPrice=0.0, permId=75279242, parentId=0, lastFillPrice=0.0, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 164248, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 252802, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 143: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 350318, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0)], advancedError='')
+2025-11-18 15:57:53,364 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=143, clientId=1, permId=75279242, action='SELL', totalQuantity=1.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=143, status='Submitted', filled=0.0, remaining=1.0, avgFillPrice=0.0, permId=75279242, parentId=0, lastFillPrice=0.0, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 164248, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 252802, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 143: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 350318, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 362726, tzinfo=datetime.timezone.utc), status='Submitted', message='', errorCode=0)], advancedError='')
+2025-11-18 15:57:53,371 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:57:53,383 INFO execDetails Execution(execId='00012ec5.691d08b8.01.01', time=datetime.datetime(2025, 11, 19, 1, 57, 50, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=661.89, permId=75279242, clientId=1, orderId=143, liquidation=0, cumQty=1.0, avgPrice=661.89, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-11-18 15:57:53,384 INFO execDetails: Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691d08b8.01.01', time=datetime.datetime(2025, 11, 19, 1, 57, 50, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=661.89, permId=75279242, clientId=1, orderId=143, liquidation=0, cumQty=1.0, avgPrice=661.89, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 57, 53, 380980, tzinfo=datetime.timezone.utc))
+2025-11-18 15:57:53,386 INFO orderStatus: Trade(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), order=MarketOrder(orderId=143, clientId=1, permId=75279242, action='SELL', totalQuantity=1.0, lmtPrice=0.0, auxPrice=0.0), orderStatus=OrderStatus(orderId=143, status='Filled', filled=1.0, remaining=0.0, avgFillPrice=661.89, permId=75279242, parentId=0, lastFillPrice=661.89, clientId=1, whyHeld='', mktCapPrice=0.0), fills=[Fill(contract=Stock(conId=756733, symbol='SPY', exchange='SMART', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), execution=Execution(execId='00012ec5.691d08b8.01.01', time=datetime.datetime(2025, 11, 19, 1, 57, 50, tzinfo=datetime.timezone.utc), acctNumber='DUO156311', exchange='BYX', side='SLD', shares=1.0, price=661.89, permId=75279242, clientId=1, orderId=143, liquidation=0, cumQty=1.0, avgPrice=661.89, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2), commissionReport=CommissionReport(execId='', commission=0.0, currency='', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0), time=datetime.datetime(2025, 11, 18, 20, 57, 53, 380980, tzinfo=datetime.timezone.utc))], log=[TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 164248, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 252802, tzinfo=datetime.timezone.utc), status='Cancelled', message='Error 10349, reqId 143: Order TIF was set to DAY based on order preset.', errorCode=10349), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 350318, tzinfo=datetime.timezone.utc), status='PreSubmitted', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 362726, tzinfo=datetime.timezone.utc), status='Submitted', message='', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 380980, tzinfo=datetime.timezone.utc), status='Submitted', message='Fill 1.0@661.89', errorCode=0), TradeLogEntry(time=datetime.datetime(2025, 11, 18, 20, 57, 53, 385472, tzinfo=datetime.timezone.utc), status='Filled', message='', errorCode=0)], advancedError='')
+2025-11-18 15:57:53,387 INFO commissionReport: CommissionReport(execId='00012ec5.691d08b8.01.01', commission=1.000188, currency='USD', realizedPNL=-3.20021, yield_=0.0, yieldRedemptionDate=0)
+2025-11-18 15:57:53,388 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:57:53,388 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 15:57:54,364 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, marketPrice=661.89001465, marketValue=0.0, averageCost=0.0, unrealizedPNL=0.0, realizedPNL=-18.42, account='DUO156311')
+2025-11-18 15:58:55,432 INFO Fetched 387 bars from IB, latest: 386
+2025-11-18 15:58:55,482 INFO Decision: SELL prob=0.473 price=661.98 (threshold=0.52)
+2025-11-18 15:58:55,483 INFO Current position: 0 shares
+2025-11-18 15:58:55,483 INFO Updated position after wait: 0 shares
+2025-11-18 15:58:55,483 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 15:59:55,745 INFO Fetched 387 bars from IB, latest: 386
+2025-11-18 15:59:55,797 INFO Decision: SELL prob=0.461 price=661.90 (threshold=0.52)
+2025-11-18 15:59:55,797 INFO Current position: 0 shares
+2025-11-18 15:59:55,798 INFO Updated position after wait: 0 shares
+2025-11-18 15:59:55,798 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 16:00:55,800 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, marketPrice=661.6500244, marketValue=0.0, averageCost=0.0, unrealizedPNL=0.0, realizedPNL=-18.42, account='DUO156311')
+2025-11-18 16:00:56,049 INFO Fetched 388 bars from IB, latest: 387
+2025-11-18 16:00:56,112 INFO Decision: SELL prob=0.488 price=661.76 (threshold=0.52)
+2025-11-18 16:00:56,112 INFO Current position: 0 shares
+2025-11-18 16:00:56,113 INFO Updated position after wait: 0 shares
+2025-11-18 16:00:56,113 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 16:01:56,364 INFO Fetched 388 bars from IB, latest: 387
+2025-11-18 16:01:56,424 INFO Decision: SELL prob=0.472 price=661.48 (threshold=0.52)
+2025-11-18 16:01:56,424 INFO Current position: 0 shares
+2025-11-18 16:01:56,424 INFO Updated position after wait: 0 shares
+2025-11-18 16:01:56,424 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 16:02:56,667 INFO Fetched 388 bars from IB, latest: 387
+2025-11-18 16:02:56,727 INFO Decision: SELL prob=0.469 price=661.45 (threshold=0.52)
+2025-11-18 16:02:56,727 INFO Current position: 0 shares
+2025-11-18 16:02:56,727 INFO Updated position after wait: 0 shares
+2025-11-18 16:02:56,727 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 16:03:56,730 INFO position: Position(account='DUO156311', contract=Stock(conId=756733, symbol='SPY', exchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, avgCost=0.0)
+2025-11-18 16:03:56,732 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, marketPrice=661.40997315, marketValue=0.0, averageCost=0.0, unrealizedPNL=0.0, realizedPNL=-18.42, account='DUO156311')
+2025-11-18 16:03:56,970 INFO Fetched 388 bars from IB, latest: 387
+2025-11-18 16:03:57,017 INFO Decision: SELL prob=0.495 price=661.41 (threshold=0.52)
+2025-11-18 16:03:57,018 INFO Current position: 0 shares
+2025-11-18 16:03:57,018 INFO Updated position after wait: 0 shares
+2025-11-18 16:03:57,018 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 16:04:57,273 INFO Fetched 388 bars from IB, latest: 387
+2025-11-18 16:04:57,314 INFO Decision: SELL prob=0.496 price=661.23 (threshold=0.52)
+2025-11-18 16:04:57,314 INFO Current position: 0 shares
+2025-11-18 16:04:57,314 INFO Updated position after wait: 0 shares
+2025-11-18 16:04:57,314 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 16:05:57,566 INFO Fetched 389 bars from IB, latest: 388
+2025-11-18 16:05:57,614 INFO Decision: SELL prob=0.488 price=661.94 (threshold=0.52)
+2025-11-18 16:05:57,615 INFO Current position: 0 shares
+2025-11-18 16:05:57,615 INFO Updated position after wait: 0 shares
+2025-11-18 16:05:57,615 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 16:06:57,618 INFO updatePortfolio: PortfolioItem(contract=Stock(conId=756733, symbol='SPY', right='0', primaryExchange='ARCA', currency='USD', localSymbol='SPY', tradingClass='SPY'), position=0.0, marketPrice=661.84002685, marketValue=0.0, averageCost=0.0, unrealizedPNL=0.0, realizedPNL=-18.42, account='DUO156311')
+2025-11-18 16:06:57,866 INFO Fetched 389 bars from IB, latest: 388
+2025-11-18 16:06:57,929 INFO Decision: SELL prob=0.488 price=661.84 (threshold=0.52)
+2025-11-18 16:06:57,929 INFO Current position: 0 shares
+2025-11-18 16:06:57,930 INFO Updated position after wait: 0 shares
+2025-11-18 16:06:57,930 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 16:07:58,190 INFO Fetched 389 bars from IB, latest: 388
+2025-11-18 16:07:58,241 INFO Decision: SELL prob=0.490 price=661.93 (threshold=0.52)
+2025-11-18 16:07:58,242 INFO Current position: 0 shares
+2025-11-18 16:07:58,242 INFO Updated position after wait: 0 shares
+2025-11-18 16:07:58,242 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 16:08:58,501 INFO Fetched 389 bars from IB, latest: 388
+2025-11-18 16:08:58,554 INFO Decision: SELL prob=0.499 price=661.74 (threshold=0.52)
+2025-11-18 16:08:58,555 INFO Current position: 0 shares
+2025-11-18 16:08:58,555 INFO Updated position after wait: 0 shares
+2025-11-18 16:08:58,555 INFO No action: sig=0, qty=0, last=SELL
+2025-11-18 16:09:48,312 INFO Disconnecting from 127.0.0.1:7497, 10.8 kB sent in 125 messages, 3.47 MB received in 5936 messages, session time 6.52 ks.
+2025-11-18 16:09:48,314 INFO Disconnecting

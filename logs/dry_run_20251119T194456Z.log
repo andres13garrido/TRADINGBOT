@@ -1,0 +1,20 @@
+2025-11-19 14:45:05,067 INFO Model loaded successfully
+2025-11-19 14:45:05,068 INFO Features: ['sma_short', 'sma_long', 'rsi', 'atr', 'ret_1', 'ret_3', 'ret_lag_1', 'ret_lag_2', 'ret_lag_3']
+2025-11-19 14:45:05,068 INFO ML Threshold: 0.52
+2025-11-19 14:45:05,069 INFO Starting dry-run loop (no orders will be sent).
+2025-11-19 14:45:05,069 INFO Polling every 60 seconds
+2025-11-19 14:45:05,069 INFO Trading SPY with 5m interval
+2025-11-19 14:45:11,140 ERROR Dry-run error (1/5)
+Traceback (most recent call last):
+  File "C:\Users\andre\TRADINGBOT\dry_run_bot.py", line 123, in dry_run_loop
+    msg = f"Signal={action} prob={prob:.3f} price={price:.2f} threshold={ML_THRESHOLD} data_age={pd.Timestamp.now() - data_time}"
+                                                                                                 ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+  File "pandas/_libs/tslibs/timestamps.pyx", line 514, in pandas._libs.tslibs.timestamps._Timestamp.__sub__
+TypeError: Cannot subtract tz-naive and tz-aware datetime-like objects.
+2025-11-19 14:46:11,636 ERROR Dry-run error (2/5)
+Traceback (most recent call last):
+  File "C:\Users\andre\TRADINGBOT\dry_run_bot.py", line 123, in dry_run_loop
+    msg = f"Signal={action} prob={prob:.3f} price={price:.2f} threshold={ML_THRESHOLD} data_age={pd.Timestamp.now() - data_time}"
+                                                                                                 ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+  File "pandas/_libs/tslibs/timestamps.pyx", line 514, in pandas._libs.tslibs.timestamps._Timestamp.__sub__
+TypeError: Cannot subtract tz-naive and tz-aware datetime-like objects.

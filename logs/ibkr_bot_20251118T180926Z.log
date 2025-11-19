@@ -1,0 +1,64 @@
+2025-11-18 13:09:28,144 INFO Model loaded successfully
+2025-11-18 13:09:28,146 INFO ML Threshold: 0.52
+2025-11-18 13:09:28,146 INFO Connecting to IB at 127.0.0.1:7497 (attempt 1/3)
+2025-11-18 13:09:28,147 INFO Connecting to 127.0.0.1:7497 with clientId 1...
+2025-11-18 13:09:28,150 INFO Connected
+2025-11-18 13:09:28,240 INFO Logged on to server version 176
+2025-11-18 13:09:28,270 INFO API connection ready
+2025-11-18 13:09:28,273 INFO Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-11-18 13:09:28,274 INFO Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-11-18 13:09:28,274 INFO Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2025-11-18 13:09:28,275 INFO Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-11-18 13:09:28,275 INFO Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-11-18 13:09:28,275 INFO Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-11-18 13:09:28,275 INFO Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-11-18 13:09:28,795 INFO Synchronization complete
+2025-11-18 13:09:28,796 INFO Connected to IB successfully
+2025-11-18 13:09:28,901 INFO Starting IBKR bot (dry_run=True)
+2025-11-18 13:09:28,902 INFO Polling every 60 seconds
+2025-11-18 13:09:29,358 INFO Fetched 353 bars from IB, latest: 352
+2025-11-18 13:09:29,429 INFO Decision: SELL prob=0.476 price=663.38 (threshold=0.52)
+2025-11-18 13:09:29,430 INFO Current position: 0 shares
+2025-11-18 13:09:29,430 INFO Dry-run mode: no order placed.
+2025-11-18 13:10:29,740 INFO Fetched 353 bars from IB, latest: 352
+2025-11-18 13:10:29,776 INFO Decision: SELL prob=0.485 price=663.56 (threshold=0.52)
+2025-11-18 13:10:29,777 INFO Current position: 0 shares
+2025-11-18 13:10:29,777 INFO Dry-run mode: no order placed.
+2025-11-18 13:11:30,031 INFO Fetched 354 bars from IB, latest: 353
+2025-11-18 13:11:30,069 INFO Decision: BUY prob=0.539 price=663.25 (threshold=0.52)
+2025-11-18 13:11:30,069 INFO Current position: 0 shares
+2025-11-18 13:11:30,069 INFO Dry-run mode: no order placed.
+2025-11-18 13:12:30,315 INFO Fetched 354 bars from IB, latest: 353
+2025-11-18 13:12:30,353 INFO Decision: SELL prob=0.517 price=663.96 (threshold=0.52)
+2025-11-18 13:12:30,353 INFO Current position: 0 shares
+2025-11-18 13:12:30,353 INFO Dry-run mode: no order placed.
+2025-11-18 13:13:30,638 INFO Fetched 354 bars from IB, latest: 353
+2025-11-18 13:13:30,700 INFO Decision: SELL prob=0.480 price=664.11 (threshold=0.52)
+2025-11-18 13:13:30,701 INFO Current position: 0 shares
+2025-11-18 13:13:30,701 INFO Dry-run mode: no order placed.
+2025-11-18 13:14:30,994 INFO Fetched 354 bars from IB, latest: 353
+2025-11-18 13:14:31,056 INFO Decision: SELL prob=0.470 price=664.13 (threshold=0.52)
+2025-11-18 13:14:31,057 INFO Current position: 0 shares
+2025-11-18 13:14:31,057 INFO Dry-run mode: no order placed.
+2025-11-18 13:15:31,335 INFO Fetched 354 bars from IB, latest: 353
+2025-11-18 13:15:31,395 INFO Decision: BUY prob=0.546 price=663.67 (threshold=0.52)
+2025-11-18 13:15:31,395 INFO Current position: 0 shares
+2025-11-18 13:15:31,395 INFO Dry-run mode: no order placed.
+2025-11-18 13:16:31,657 INFO Fetched 355 bars from IB, latest: 354
+2025-11-18 13:16:31,712 INFO Decision: SELL prob=0.459 price=663.96 (threshold=0.52)
+2025-11-18 13:16:31,712 INFO Current position: 0 shares
+2025-11-18 13:16:31,713 INFO Dry-run mode: no order placed.
+2025-11-18 13:17:31,980 INFO Fetched 355 bars from IB, latest: 354
+2025-11-18 13:17:32,043 INFO Decision: SELL prob=0.493 price=663.62 (threshold=0.52)
+2025-11-18 13:17:32,043 INFO Current position: 0 shares
+2025-11-18 13:17:32,044 INFO Dry-run mode: no order placed.
+2025-11-18 13:18:32,305 INFO Fetched 355 bars from IB, latest: 354
+2025-11-18 13:18:32,393 INFO Decision: SELL prob=0.459 price=663.97 (threshold=0.52)
+2025-11-18 13:18:32,393 INFO Current position: 0 shares
+2025-11-18 13:18:32,393 INFO Dry-run mode: no order placed.
+2025-11-18 13:19:32,679 INFO Fetched 355 bars from IB, latest: 354
+2025-11-18 13:19:32,746 INFO Decision: SELL prob=0.492 price=663.65 (threshold=0.52)
+2025-11-18 13:19:32,746 INFO Current position: 0 shares
+2025-11-18 13:19:32,746 INFO Dry-run mode: no order placed.
+2025-11-18 13:19:37,209 INFO Disconnecting from 127.0.0.1:7497, 1.07 kB sent in 20 messages, 323 kB received in 427 messages, session time 609 s.
+2025-11-18 13:19:37,211 INFO Disconnecting

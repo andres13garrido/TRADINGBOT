@@ -8,7 +8,7 @@ import yfinance as yf
 import ta
 import pandas as pd
 import time
-from config import TICKER, INTERVAL, MODEL_FILE
+from config import TICKER, INTERVAL, MODEL_FILE, ML_THRESHOLD
 from utils import setup_logging, ensure_dirs
 from pathlib import Path
 
@@ -54,6 +54,20 @@ def fetch_recent(ticker=TICKER, interval=INTERVAL, period="60d"):
     df = yf.download(ticker, period=period, interval=interval, progress=False)
     if df.empty:
         raise RuntimeError("No recent data")
+    
+    # Check if data is fresh (within last hour for intraday, last day for daily)
+    latest_time = df.index[-1]
+    now = pd.Timestamp.now(tz=latest_time.tz)
+    time_diff = now - latest_time
+    
+    if interval == "1d":
+        max_age = pd.Timedelta(days=5)  # Allow up to 5 days old (weekend)
+    else:
+        max_age = pd.Timedelta(hours=24)  # For intraday, warn if > 24h old
+    
+    if time_diff > max_age:
+        logger.warning(f"Data is {time_diff} old. Markets may be closed.")
+    
     return df
 
 def dry_run_loop(poll_seconds=60):
@@ -62,15 +76,27 @@ def dry_run_loop(poll_seconds=60):
         model, scaler, features = load_model(MODEL_FILE)
         logger.info("Model loaded successfully")
         logger.info(f"Features: {features}")
+        logger.info(f"ML Threshold: {ML_THRESHOLD}")
     except Exception as e:
         logger.exception("Failed to load model")
         return
     
     logger.info("Starting dry-run loop (no orders will be sent).")
     logger.info(f"Polling every {poll_seconds} seconds")
+    logger.info(f"Trading {TICKER} with {INTERVAL} interval")
+    
+    # Check if market hours (for US stocks)
+    now = pd.Timestamp.now(tz='America/New_York')
+    if now.hour < 9 or now.hour >= 16 or now.weekday() >= 5:
+        logger.warning("⚠️  US MARKETS ARE CURRENTLY CLOSED")
+        logger.warning(f"Current time: {now.strftime('%Y-%m-%d %H:%M:%S %Z')}")
+        logger.warning("Market hours: Mon-Fri 9:30 AM - 4:00 PM EST")
+        logger.warning("Price data will be stale until markets open.")
     
     consecutive_errors = 0
     max_consecutive_errors = 5
+    
+    prev_price = None
     
     while True:
         try:
@@ -78,13 +104,30 @@ def dry_run_loop(poll_seconds=60):
             last = compute_features_row(df)
             
             X = last[features].values.reshape(1, -1)
-            Xs = scaler.transform(X)
+            # Convert to DataFrame to preserve feature names (silences sklearn warning)
+            X_df = pd.DataFrame(X, columns=features)
+            Xs = scaler.transform(X_df)
             prob = model.predict_proba(Xs)[0,1]
-            signal = int(prob > 0.6)
+            signal = int(prob > ML_THRESHOLD)
             action = "BUY" if signal==1 else "SELL"
             price = float(last["close"])
             
-            msg = f"Signal={action} prob={prob:.3f} price={price:.2f} time={pd.Timestamp.now()}"
+            # Check if price changed
+            if prev_price is not None and price == prev_price:
+                logger.warning(f"⚠️  Price unchanged ({price:.2f}) - markets likely closed")
+            prev_price = price
+            
+            # Get latest data timestamp
+            data_time = df.index[-1]
+            
+            # Calculate data age - handle timezone properly
+            if data_time.tz is not None:
+                now = pd.Timestamp.now(tz=data_time.tz)
+            else:
+                now = pd.Timestamp.now()
+            data_age = now - data_time
+            
+            msg = f"Signal={action} prob={prob:.3f} price={price:.2f} threshold={ML_THRESHOLD} data_age={data_age}"
             logger.info(msg)
             print(msg)
             

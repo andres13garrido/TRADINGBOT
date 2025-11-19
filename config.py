@@ -16,6 +16,7 @@ RSI_PERIOD = 14
 
 # Model
 MODEL_FILE = ROOT / "models" / "rf_model.joblib"
+ML_THRESHOLD = 0.52  # Probability threshold for ML signals (0.5-0.7 range)
 
 # Backtest
 INITIAL_CAPITAL = 100000

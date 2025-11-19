@@ -7,7 +7,7 @@ from ib_insync import IB, Stock, MarketOrder, LimitOrder, util
 import joblib
 import time
 from config import (IB_HOST, IB_PORT, IB_CLIENT_ID, TICKER, INTERVAL, 
-                   MODEL_FILE, STOP_LOSS_PCT, POSITION_PCT)
+                   MODEL_FILE, STOP_LOSS_PCT, POSITION_PCT, ML_THRESHOLD)
 from utils import setup_logging, ensure_dirs
 from pathlib import Path
 import ta
@@ -104,6 +104,7 @@ def run_ibkr(dry_run=True, poll_seconds=60):
         scaler = bundle["scaler"]
         features = bundle["features"]
         logger.info("Model loaded successfully")
+        logger.info(f"ML Threshold: {ML_THRESHOLD}")
     except Exception as e:
         logger.exception("Failed to load model")
         return
@@ -124,6 +125,10 @@ def run_ibkr(dry_run=True, poll_seconds=60):
     consecutive_errors = 0
     max_consecutive_errors = 5
     
+    # Track pending orders to prevent duplicates
+    pending_order = None
+    last_action = None
+    
     while True:
         try:
             # Check connection
@@ -133,9 +138,9 @@ def run_ibkr(dry_run=True, poll_seconds=60):
                 consecutive_errors = 0
             
             # Get recent bars
-            df = get_latest_bars_ib(ib, contract, duration="2 D", bar_size="5 mins")
+            df = get_latest_bars_ib(ib, contract, duration="5 D", bar_size="5 mins")
             if df.empty:
-                logger.warning("No bars returned")
+                logger.warning("No bars returned, waiting...")
                 time.sleep(poll_seconds)
                 continue
             
@@ -150,13 +155,15 @@ def run_ibkr(dry_run=True, poll_seconds=60):
             
             # Get prediction
             X = last[features].values.reshape(1, -1)
-            Xs = scaler.transform(X)
+            # Convert to DataFrame to preserve feature names (silences sklearn warning)
+            X_df = pd.DataFrame(X, columns=features)
+            Xs = scaler.transform(X_df)
             prob = model.predict_proba(Xs)[0,1]
-            sig = int(prob > 0.6)
+            sig = int(prob > ML_THRESHOLD)
             action = "BUY" if sig==1 else "SELL"
             price = float(last["close"])
             
-            logger.info(f"Decision: {action} prob={prob:.3f} price={price:.2f}")
+            logger.info(f"Decision: {action} prob={prob:.3f} price={price:.2f} (threshold={ML_THRESHOLD})")
             
             # Get current position from IB
             current_qty = get_current_position(ib, contract)
@@ -165,29 +172,36 @@ def run_ibkr(dry_run=True, poll_seconds=60):
             if dry_run:
                 logger.info("Dry-run mode: no order placed.")
             else:
-                # Calculate order size based on capital
-                account_value = [v for v in ib.accountValues() if v.tag == 'NetLiquidation'][0]
-                capital = float(account_value.value)
-                target_value = capital * POSITION_PCT
-                target_qty = int(target_value / price)
+                # Wait for pending orders to settle
+                if pending_order and not pending_order.isDone():
+                    logger.info("⏳ Waiting for previous order to complete...")
+                    ib.sleep(2)
+                    
+                # Get fresh position after waiting
+                current_qty = get_current_position(ib, contract)
+                logger.info(f"Updated position after wait: {current_qty} shares")
                 
-                logger.info(f"Account value: ${capital:.2f}, Target position: {target_qty} shares")
-                
-                # Trading logic
-                if sig == 1 and current_qty <= 0:
-                    # Buy signal and not long
-                    qty = max(1, target_qty)
+                # Trading logic - only trade if no pending order
+                if sig == 1 and current_qty == 0 and last_action != "BUY":
+                    # Buy signal, no position, and haven't just bought
+                    qty = 1
                     order = MarketOrder("BUY", qty)
                     trade = ib.placeOrder(contract, order)
-                    logger.info(f"Placed BUY order for {qty} shares: {trade}")
+                    logger.info(f"✅ PLACED BUY ORDER for {qty} shares: {trade}")
+                    pending_order = trade
+                    last_action = "BUY"
                     ib.sleep(2)  # Wait for order to fill
                     
-                elif sig == 0 and current_qty > 0:
-                    # Sell signal and currently long
+                elif sig == 0 and current_qty > 0 and last_action != "SELL":
+                    # Sell signal, have position, and haven't just sold
                     order = MarketOrder("SELL", current_qty)
                     trade = ib.placeOrder(contract, order)
-                    logger.info(f"Placed SELL order for {current_qty} shares: {trade}")
+                    logger.info(f"✅ PLACED SELL ORDER for {current_qty} shares: {trade}")
+                    pending_order = trade
+                    last_action = "SELL"
                     ib.sleep(2)
+                else:
+                    logger.info(f"No action: sig={sig}, qty={current_qty}, last={last_action}")
             
             consecutive_errors = 0  # Reset on success
             
@@ -213,6 +227,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry", action="store_true", default=True, help="Dry-run mode: no orders")
     parser.add_argument("--live", action="store_true", help="LIVE TRADING MODE (overrides --dry)")
+    parser.add_argument("--paper", action="store_true", help="Paper trading mode: places 1-share orders")
     parser.add_argument("--interval", type=int, default=60, help="Poll interval in seconds")
     args = parser.parse_args()
     
@@ -223,6 +238,13 @@ if __name__ == "__main__":
             print("Aborted.")
             exit()
         dry_run = False
+    elif args.paper:
+        print("PAPER TRADING MODE: Will place 1-share orders visible in IB")
+        response = input("Continue? (yes/no): ")
+        if response.lower() != "yes":
+            print("Aborted.")
+            exit()
+        dry_run = False  # Enable order placement
     else:
         dry_run = True
     

@@ -1,0 +1,4 @@
+2025-11-18 13:07:05,490 INFO Loaded 1682 rows from C:\Users\andre\TRADINGBOT\data\raw\SPY_5m.csv
+2025-11-18 13:07:05,490 INFO Computing technical indicators...
+2025-11-18 13:07:05,510 INFO Features computed, 1633 rows after dropna
+2025-11-18 13:07:05,545 INFO Saved features to C:\Users\andre\TRADINGBOT\data\cleaned\SPY_5m_features.csv

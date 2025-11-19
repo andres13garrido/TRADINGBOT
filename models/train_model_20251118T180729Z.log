@@ -1,0 +1,32 @@
+2025-11-18 13:07:29,259 INFO Loaded 1633 rows for training
+2025-11-18 13:07:29,262 INFO Class distribution - 0: 824, 1: 809
+2025-11-18 13:07:29,263 INFO Train size: 1306, Test size: 327
+2025-11-18 13:07:29,267 INFO Training Random Forest...
+2025-11-18 13:07:29,724 INFO Validation accuracy: 0.4862
+2025-11-18 13:07:29,736 INFO 
+              precision    recall  f1-score   support
+
+           0       0.51      0.44      0.47       170
+           1       0.47      0.54      0.50       157
+
+    accuracy                           0.49       327
+   macro avg       0.49      0.49      0.49       327
+weighted avg       0.49      0.49      0.49       327
+
+2025-11-18 13:07:29,739 INFO 
+Confusion Matrix:
+[[75 95]
+ [73 84]]
+2025-11-18 13:07:29,777 INFO 
+Feature Importance:
+     feature  importance
+7  ret_lag_2    0.123154
+8  ret_lag_3    0.117233
+5      ret_3    0.114304
+2        rsi    0.112556
+4      ret_1    0.112471
+6  ret_lag_1    0.111440
+1   sma_long    0.106739
+3        atr    0.105740
+0  sma_short    0.096365
+2025-11-18 13:07:29,911 INFO Saved model to C:\Users\andre\TRADINGBOT\models\rf_model.joblib

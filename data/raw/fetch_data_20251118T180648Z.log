@@ -1,0 +1,3 @@
+2025-11-18 13:06:48,234 INFO Fetching SPY interval=5m start=None end=None
+2025-11-18 13:06:53,678 INFO Flattened multi-index columns
+2025-11-18 13:06:53,701 INFO Saved raw CSV to C:\Users\andre\TRADINGBOT\data\raw\SPY_5m.csv with 1682 rows
