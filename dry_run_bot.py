@@ -51,7 +51,7 @@ def load_model(model_file=MODEL_FILE):
 
 def fetch_recent(ticker=TICKER, interval=INTERVAL, period="60d"):
     """Fetch recent bars from yfinance"""
-    df = yf.download(ticker, period=period, interval=interval, progress=False)
+    df = yf.download(ticker, period=period, interval=interval, progress=False, auto_adjust=True)
     if df.empty:
         raise RuntimeError("No recent data")
     

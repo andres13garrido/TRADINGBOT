@@ -1,0 +1,31 @@
+2025-11-19 15:00:37,337 INFO Model loaded successfully
+2025-11-19 15:00:37,338 INFO Features: ['sma_short', 'sma_long', 'rsi', 'atr', 'ret_1', 'ret_3', 'ret_lag_1', 'ret_lag_2', 'ret_lag_3']
+2025-11-19 15:00:37,339 INFO ML Threshold: 0.52
+2025-11-19 15:00:37,339 INFO Starting dry-run loop (no orders will be sent).
+2025-11-19 15:00:37,339 INFO Polling every 60 seconds
+2025-11-19 15:00:37,339 INFO Trading SPY with 5m interval
+2025-11-19 15:00:38,158 INFO Signal=BUY prob=0.545 price=661.63 threshold=0.52 data_age=0 days 00:00:38.157912
+2025-11-19 15:01:38,605 INFO Signal=BUY prob=0.540 price=661.53 threshold=0.52 data_age=0 days 00:01:38.605611
+2025-11-19 15:02:39,263 INFO Signal=BUY prob=0.552 price=661.07 threshold=0.52 data_age=0 days 00:02:39.262999
+2025-11-19 15:03:39,748 INFO Signal=BUY prob=0.546 price=661.37 threshold=0.52 data_age=0 days 00:03:39.748114
+2025-11-19 15:04:40,399 INFO Signal=BUY prob=0.546 price=661.66 threshold=0.52 data_age=0 days 00:04:40.399509
+2025-11-19 15:05:40,896 INFO Signal=BUY prob=0.645 price=661.65 threshold=0.52 data_age=0 days 00:00:40.896137
+2025-11-19 15:06:41,444 INFO Signal=BUY prob=0.638 price=661.72 threshold=0.52 data_age=0 days 00:01:41.444368
+2025-11-19 15:07:41,913 INFO Signal=BUY prob=0.610 price=661.50 threshold=0.52 data_age=0 days 00:02:41.913379
+2025-11-19 15:08:42,454 INFO Signal=BUY prob=0.636 price=661.72 threshold=0.52 data_age=0 days 00:03:42.454203
+2025-11-19 15:09:43,050 INFO Signal=BUY prob=0.635 price=661.73 threshold=0.52 data_age=0 days 00:04:43.049732
+2025-11-19 15:10:43,743 INFO Signal=BUY prob=0.668 price=661.78 threshold=0.52 data_age=0 days 00:00:43.743031
+2025-11-19 15:11:44,249 INFO Signal=BUY prob=0.655 price=662.11 threshold=0.52 data_age=0 days 00:01:44.249580
+2025-11-19 15:12:44,810 INFO Signal=BUY prob=0.612 price=662.30 threshold=0.52 data_age=0 days 00:02:44.810679
+2025-11-19 15:13:45,349 INFO Signal=BUY prob=0.642 price=662.11 threshold=0.52 data_age=0 days 00:03:45.349562
+2025-11-19 15:14:45,812 INFO Signal=BUY prob=0.609 price=662.39 threshold=0.52 data_age=0 days 00:04:45.811946
+2025-11-19 15:15:46,273 INFO Signal=BUY prob=0.654 price=662.67 threshold=0.52 data_age=0 days 00:00:46.273249
+2025-11-19 15:16:46,810 INFO Signal=BUY prob=0.590 price=663.03 threshold=0.52 data_age=0 days 00:01:46.810086
+2025-11-19 15:17:47,301 INFO Signal=BUY prob=0.584 price=663.15 threshold=0.52 data_age=0 days 00:02:47.301739
+2025-11-19 15:18:47,816 INFO Signal=BUY prob=0.566 price=663.54 threshold=0.52 data_age=0 days 00:03:47.815847
+2025-11-19 15:19:48,303 INFO Signal=BUY prob=0.533 price=663.97 threshold=0.52 data_age=0 days 00:04:48.303154
+2025-11-19 15:20:48,999 INFO Signal=BUY prob=0.564 price=664.14 threshold=0.52 data_age=0 days 00:00:48.999045
+2025-11-19 15:21:49,584 INFO Signal=BUY prob=0.569 price=663.96 threshold=0.52 data_age=0 days 00:01:49.584553
+2025-11-19 15:22:50,123 INFO Signal=BUY prob=0.570 price=664.05 threshold=0.52 data_age=0 days 00:02:50.123594
+2025-11-19 15:23:50,724 INFO Signal=BUY prob=0.609 price=663.21 threshold=0.52 data_age=0 days 00:03:50.724114
+2025-11-19 15:24:51,194 INFO Signal=BUY prob=0.560 price=663.52 threshold=0.52 data_age=0 days 00:04:51.194003

@@ -19,7 +19,7 @@ def fetch_yfinance(ticker=TICKER, start=START, end=END, interval=INTERVAL):
     
     try:
         # yfinance has intraday limits; daily data is full history
-        df = yf.download(ticker, start=start, end=end, interval=interval, progress=False)
+        df = yf.download(ticker, start=start, end=end, interval=interval, progress=False, auto_adjust=True)
         if df is None or df.empty:
             logger.error("No data fetched. Try changing interval or date range.")
             raise RuntimeError("No data fetched.")
