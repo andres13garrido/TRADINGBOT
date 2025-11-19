@@ -1,0 +1,12 @@
+2025-11-19 16:00:58,709 INFO Model loaded successfully
+2025-11-19 16:00:58,711 INFO Features: ['sma_short', 'sma_long', 'rsi', 'atr', 'ret_1', 'ret_3', 'ret_lag_1', 'ret_lag_2', 'ret_lag_3']
+2025-11-19 16:00:58,711 INFO ML Threshold: 0.52
+2025-11-19 16:00:58,711 INFO Starting dry-run loop (no orders will be sent).
+2025-11-19 16:00:58,711 INFO Polling every 60 seconds
+2025-11-19 16:00:58,712 INFO Trading SPY with 5m interval
+2025-11-19 16:00:58,807 WARNING \u26a0\ufe0f  US MARKETS ARE CURRENTLY CLOSED
+2025-11-19 16:00:58,808 WARNING Current time: 2025-11-19 16:00:58 EST
+2025-11-19 16:00:58,808 WARNING Market hours: Mon-Fri 9:30 AM - 4:00 PM EST
+2025-11-19 16:00:58,808 WARNING Price data will be stale until markets open.
+2025-11-19 16:00:59,456 INFO Signal=BUY prob=0.537 price=662.88 threshold=0.52 data_age=0 days 00:05:59.456346
+2025-11-19 16:02:01,627 INFO Signal=BUY prob=0.584 price=662.56 threshold=0.52 data_age=0 days 00:07:01.627185

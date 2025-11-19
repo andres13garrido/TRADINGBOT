@@ -1,0 +1,30 @@
+{
+  "initial_value": 100000,
+  "final_value": 100000.0,
+  "total_return": 0.0,
+  "sharpe": {
+    "sharperatio": null
+  },
+  "drawdown": {
+    "len": 0,
+    "drawdown": 0.0,
+    "moneydown": 0.0,
+    "max": {
+      "len": 0.0,
+      "drawdown": 0.0,
+      "moneydown": 0.0
+    }
+  },
+  "returns": {
+    "rtot": 0.0,
+    "ravg": 0.0,
+    "rnorm": 0.0,
+    "rnorm100": 0.0
+  },
+  "trades": {
+    "total": {
+      "total": 0
+    }
+  },
+  "threshold": 0.85
+}
